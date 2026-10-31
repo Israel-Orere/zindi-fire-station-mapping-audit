@@ -1,0 +1,58 @@
+{
+  "regions": [
+    {
+      "region": "eastern-ok",
+      "historical_snapshot": "2026-08-01T00:00:00Z",
+      "included_in_comparisons": true,
+      "fire_sites": 254,
+      "other_sites": 1882,
+      "raw_sha256": "c3c5b5da0ab4170a541e6cae2a90fd08a6f136c448148ae43f502a89794982df",
+      "historical_raw_file": "work/osm/eastern-ok.json"
+    },
+    {
+      "region": "eastern-wa",
+      "historical_snapshot": "2026-08-01T00:00:00Z",
+      "included_in_comparisons": true,
+      "fire_sites": 321,
+      "other_sites": 0,
+      "raw_sha256": "619e936b25ac3d20e236a7cd4cf1c7756a03cac4459e0c9160f355279ad5cb99",
+      "historical_raw_file": "work/osm/eastern-wa.json"
+    },
+    {
+      "region": "maricopa-az",
+      "historical_snapshot": "2026-08-01T00:00:00Z",
+      "included_in_comparisons": true,
+      "fire_sites": 441,
+      "other_sites": 0,
+      "raw_sha256": "381f3047f351d5ce65c6a8676bd1b6bcd1dac87328d77a2d431371cd3c645131",
+      "historical_raw_file": "work/osm/maricopa-az.json"
+    },
+    {
+      "region": "northern-ca",
+      "historical_snapshot": "2026-08-01T00:00:00Z",
+      "included_in_comparisons": true,
+      "fire_sites": 356,
+      "other_sites": 0,
+      "raw_sha256": "683314d925baf18ef0d507ea62c7ccab6eeace1d31ffaeaf19ab9d2b9c43b978",
+      "historical_raw_file": "work/osm/northern-ca.json"
+    },
+    {
+      "region": "south-central-tx",
+      "historical_snapshot": "2026-08-01T00:00:00Z",
+      "included_in_comparisons": false,
+      "status": "incomplete",
+      "reason": "Public historical Overpass requests returned timeouts, HTTP 429 rate limits and HTTP 502. No partial Texas data contribute to results.",
+      "cached_partition_pieces": [
+        "south-central-tx.tile0_sub0.json",
+        "south-central-tx.tile0_sub1.json",
+        "south-central-tx.tile1.json",
+        "south-central-tx.tile2_sub0.json",
+        "south-central-tx.tile2_sub1.json",
+        "south-central-tx.tile3_sub1.json"
+      ],
+      "next_step": "Complete all missing bbox pieces at the same historical date, validate complete coverage, then compute regional comparisons and review new name-pair flags."
+    }
+  ],
+  "regional_scope_note": "Three of the four leaderboard regions are complete, plus supplementary Eastern Washington. South-Central Texas is incomplete.",
+  "case_scope_note": "All eleven >500 m unique-name flags in complete regions reviewed; seven additional 100\u2013500 m differences disclosed; aliases, unnamed sites and every unmatched operating station have not been independently verified."
+}

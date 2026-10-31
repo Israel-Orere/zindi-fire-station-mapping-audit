@@ -1,0 +1,797 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 36,
+    "sha256": "e0cd3fb36e76b793df8de723d3b64553adfe1140ae36a022042056cee521d574"
+  },
+  {
+    "path": "download_inputs.py",
+    "bytes": 415,
+    "sha256": "1ee67b1866fcb252a6cc07e67c2f2fc91a3bcd5af262ef8dd595cd37e9e2344b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1090,
+    "sha256": "2f2675bb2b62337ea8e89af6fb07a8b00299544c1210d0d296567641ca60d607"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2691,
+    "sha256": "67154bbe40c0f101a1a4645433fc09c6a365b868b619ad3d5b12e292f6de98b3"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 59,
+    "sha256": "9aecdb645a63146cf330ee3b8904d3b67eed500bbce25b17d1c4df90f8e20a05"
+  },
+  {
+    "path": "outputs/all_ten_physical_site_checks.json",
+    "bytes": 6516,
+    "sha256": "2704ff1c10e46871381be66a7e34335179e2f2227bc75e3b6790e2b7a55cca42"
+  },
+  {
+    "path": "outputs/article_analysis_notes.md",
+    "bytes": 7684,
+    "sha256": "65cfbe1fa312e33a2553a1753ef396f6f7847002dd3ca4cadc96770d59140953"
+  },
+  {
+    "path": "outputs/bias_discovery_writeup.md",
+    "bytes": 7180,
+    "sha256": "26edfb6b71327fe67d6b161c366ef00537cb882e6f5595501cd154755903e46a"
+  },
+  {
+    "path": "outputs/case_broken-arrow.png",
+    "bytes": 60198,
+    "sha256": "8348166b6ca80f21bba842dc1cbc428073c537e7f81df3d46251daa47cb145dd"
+  },
+  {
+    "path": "outputs/case_eufaula.png",
+    "bytes": 99567,
+    "sha256": "b89cfd5d77511a0b62beb60640298662cd4aa3584afb449d7aed787633d671f2"
+  },
+  {
+    "path": "outputs/case_foresthill.png",
+    "bytes": 65215,
+    "sha256": "02f0e8fe387e50c6448aca500bc7d4d16ba442009546a18d026d24f9e707c830"
+  },
+  {
+    "path": "outputs/case_mesa.png",
+    "bytes": 86451,
+    "sha256": "3358e1cb7b8f061119557fe1bd57a0284735b75ae687af55cb21210e1f9d4980"
+  },
+  {
+    "path": "outputs/case_porum.png",
+    "bytes": 129929,
+    "sha256": "f6534bf6fb7452c15bec8b4847724cd09771fe39c86989bf7e2aa618741387b5"
+  },
+  {
+    "path": "outputs/case_redding.png",
+    "bytes": 85031,
+    "sha256": "2ce1765e1904bcbf8e8243a3491c677825b2cf90126cf2fb882c93ad0a126b1e"
+  },
+  {
+    "path": "outputs/case_review_ledger.csv",
+    "bytes": 15509,
+    "sha256": "e2e4d6c97fe3f9698ba16d279af42f52cb90589a5bc276caf375e95c9b65995c"
+  },
+  {
+    "path": "outputs/case_review_ledger.json",
+    "bytes": 68631,
+    "sha256": "9b3250449cf4d649c5562d8cda7f0a8cb3fa9c5588ae58d998dd8256e7b7aca4"
+  },
+  {
+    "path": "outputs/case_review_summary.json",
+    "bytes": 868,
+    "sha256": "b327e95b454672d9de29a9ab6e44ab62b6719dd85f1f1a2bce4d5146885bcfa1"
+  },
+  {
+    "path": "outputs/case_shingletown.png",
+    "bytes": 49046,
+    "sha256": "e6f403b26ea0ead304a88dca4b485f8f93f7d6452f4d3a17fd95c0243d6bc935"
+  },
+  {
+    "path": "outputs/case_washington-county.png",
+    "bytes": 45641,
+    "sha256": "fe18a1f2cf7d020388e3f6ad782ce8d239d57e170f0680158921fc9a040c95a7"
+  },
+  {
+    "path": "outputs/case_webbers-falls.png",
+    "bytes": 51656,
+    "sha256": "0643815af69077152421e9fdde28fadc274cb6b3de817f59bdf59663c96aec5f"
+  },
+  {
+    "path": "outputs/case_westport.png",
+    "bytes": 39451,
+    "sha256": "37f4b914ad0a86100ad115d4a24418f571902b4fc647b6b63314a6adfbe860d2"
+  },
+  {
+    "path": "outputs/case_yakima.png",
+    "bytes": 121393,
+    "sha256": "3728ea7752ddc7817ec01746a6b89f97bba7fe3decb368b43c338f4d54309e94"
+  },
+  {
+    "path": "outputs/comprehensive_case_audit.md",
+    "bytes": 19539,
+    "sha256": "4a8bdbad44f47a51c8efe0c5d57c282ca92914e4eaa587bc90730850df74abb1"
+  },
+  {
+    "path": "outputs/coverage_status.json",
+    "bytes": 2600,
+    "sha256": "30ccdebd3b985fb9cda3e5ec3220e5b33766efcdae69a0afaa4c13d28bfbcc60"
+  },
+  {
+    "path": "outputs/eastern-ok_facility_audit.csv",
+    "bytes": 942434,
+    "sha256": "793f4aa0319ce25abd693973091ae13da945a1642269ed248c5cb891c5efde2d"
+  },
+  {
+    "path": "outputs/eastern-wa_facility_audit.csv",
+    "bytes": 149213,
+    "sha256": "bcf8826789bcc026bbc08c4210581321b8e216302c1e932ac0cdc055c5df01f8"
+  },
+  {
+    "path": "outputs/equity_adjusted_associations.csv",
+    "bytes": 2007,
+    "sha256": "916c48896d2f6728a39c13270cb45176397713438124686373b44a91448dee87"
+  },
+  {
+    "path": "outputs/equity_adjusted_findings.png",
+    "bytes": 148736,
+    "sha256": "33c25443a7d5b7254e50427bde6f8f13da5908f7db326ab39bc225823a009a76"
+  },
+  {
+    "path": "outputs/equity_analysis_protocol.json",
+    "bytes": 3110,
+    "sha256": "3e09d204dd046f21498f458c31b3bf3abb9258b360aecac197893e602a15c61e"
+  },
+  {
+    "path": "outputs/equity_analysis_results.json",
+    "bytes": 8963,
+    "sha256": "3081ec61072c0e4809c65a30fbc2a150689a0a01a1663f195eac38d8b3391773"
+  },
+  {
+    "path": "outputs/equity_community_context.csv",
+    "bytes": 1058,
+    "sha256": "09c243fa0340c76940d697b67f090c56cb7cc094062d538a7a1c689163be5be3"
+  },
+  {
+    "path": "outputs/equity_fire_site_analysis.csv",
+    "bytes": 1256804,
+    "sha256": "f80b16e358092b415c4ea0f3f9685cbbb45d8f3d322768ac194d420675127250"
+  },
+  {
+    "path": "outputs/equity_followup_protocol.json",
+    "bytes": 834,
+    "sha256": "c8581114ca471182149c19eeaabe75f078f1c95ff43cdf45b279bf3be75bee41"
+  },
+  {
+    "path": "outputs/equity_followup_report.md",
+    "bytes": 15347,
+    "sha256": "06103126f0794651e4a30eb96b2c012588ec5b72c703b9a51c82706b723166c6"
+  },
+  {
+    "path": "outputs/equity_matched_tract_pairs.csv",
+    "bytes": 67326,
+    "sha256": "3a5d5905195ffddaf08496589d33819ee88be9d7215a730b84cf9c239fa20778"
+  },
+  {
+    "path": "outputs/equity_match_balance.csv",
+    "bytes": 798,
+    "sha256": "64a48a2e5f75296f3d2ab4b3a98fe1e176bd385ea85bd441bcc00a827f9878d9"
+  },
+  {
+    "path": "outputs/equity_named_case_context.json",
+    "bytes": 6443,
+    "sha256": "dbf139ba1b9d9fb86ffa5fa5da10196e793dcdcfb0e8158577e6cefb3242b426"
+  },
+  {
+    "path": "outputs/equity_one_station_tracts.png",
+    "bytes": 111423,
+    "sha256": "62fea0ab23642a06c5f14e7657056e01970d9b87e5fd6869d39672a873b139e2"
+  },
+  {
+    "path": "outputs/equity_pooled_subgroup_rates.csv",
+    "bytes": 4825,
+    "sha256": "14b32cb6bf1f17389d66b4eecd14c2d06feffea8dd4975d3db45a070811af560"
+  },
+  {
+    "path": "outputs/equity_rural_gap_sensitivity.csv",
+    "bytes": 8353,
+    "sha256": "5744addd539784eca9b61b080671b093c54e50f7eb1085e333da2b213abf5a93"
+  },
+  {
+    "path": "outputs/equity_social_vulnerability.png",
+    "bytes": 137131,
+    "sha256": "a624445c9f40da1c9dcaa2781d0255053257d709a68ce80bfe8e9688b42271af"
+  },
+  {
+    "path": "outputs/equity_strict_match_balance.csv",
+    "bytes": 618,
+    "sha256": "f49be5605233f04353faf202464078aadb41ab91361d6758bbc44bcd7252e4c4"
+  },
+  {
+    "path": "outputs/equity_strict_match_sensitivity.csv",
+    "bytes": 896,
+    "sha256": "a4e50156344cf6b66f488f4973a5127621d29a9e80709bec29dff3e5eb197a4d"
+  },
+  {
+    "path": "outputs/equity_strict_pairs_0.05.csv",
+    "bytes": 13116,
+    "sha256": "4a24eaf1a2ed83df4cf50b32b23d7726f847c28c9add527891a6b141ac7b3ada"
+  },
+  {
+    "path": "outputs/equity_strict_pairs_0.1.csv",
+    "bytes": 20281,
+    "sha256": "64f281b979fdf7e32f856e0f0fb59c8f80b26d67e4a59b00b54aa19452cca09b"
+  },
+  {
+    "path": "outputs/equity_subgroup_rates.csv",
+    "bytes": 18724,
+    "sha256": "808cd5381fcfb7cde7fa4fd7a01fb09b102e8bea576ee4991f23d8b3aea9e3dc"
+  },
+  {
+    "path": "outputs/equity_validation.json",
+    "bytes": 1277,
+    "sha256": "8b6084ad386462acfff62f7c2065d957232bb680f46120e2979c2e48d92e42b8"
+  },
+  {
+    "path": "outputs/equity_wildfire_association_sensitivity.csv",
+    "bytes": 1295,
+    "sha256": "96a6ff85078b5bdef84c153d51524776fa7ee083ed3a160298b3f878b4aa0fb2"
+  },
+  {
+    "path": "outputs/exact_name_location_audit.csv",
+    "bytes": 57485,
+    "sha256": "07b6cfc580ed2465a05da03595dd21fe82e91536580b30bfd5546da5f1aa5212"
+  },
+  {
+    "path": "outputs/facility_audit.csv",
+    "bytes": 1515833,
+    "sha256": "e71f05cce938a95050d96130f0f9f392b115ee7775b9b4d26fed2deb33e256fb"
+  },
+  {
+    "path": "outputs/input_manifest.json",
+    "bytes": 5719,
+    "sha256": "53987deeeead0be1377a25228450c6856b4e8b752f54d59918e18a05384bfe71"
+  },
+  {
+    "path": "outputs/maricopa-az_facility_audit.csv",
+    "bytes": 264666,
+    "sha256": "8360d0d63b4c0e94276d8db3c00ec94a0ddc59b5a0618e47690daa6aad1d281f"
+  },
+  {
+    "path": "outputs/methodology.md",
+    "bytes": 11439,
+    "sha256": "75d6bdb701c1283b43ef747c9269243651318111977fb5ce1d05f021d33d68b6"
+  },
+  {
+    "path": "outputs/named_case_evidence.json",
+    "bytes": 9979,
+    "sha256": "c44f118860787868707793ab27f73b1b700cd0c92994bad5fb17b117e253dd6f"
+  },
+  {
+    "path": "outputs/northern-ca_facility_audit.csv",
+    "bytes": 163050,
+    "sha256": "50c853b09eaf206ac2d9e55146818ee73f28164ffa61bf8940dae36d9e223192"
+  },
+  {
+    "path": "outputs/physical_site_checks.json",
+    "bytes": 4416,
+    "sha256": "7b9cd9e5348d9c18e446682fe9d17486ac74d00d4dce93dd1b82942db8890df7"
+  },
+  {
+    "path": "outputs/porum_location_discrepancy.png",
+    "bytes": 73706,
+    "sha256": "88c408cd83465028a1f06889df2ea48d1515fe81652e13de7f0c7f6067eea657"
+  },
+  {
+    "path": "outputs/public_source_review_register.json",
+    "bytes": 14675,
+    "sha256": "7eb1e50d5fee9a8c016f9726e1d8c3f90b4e7cd2b9152f9fcd74bb862ea502f2"
+  },
+  {
+    "path": "outputs/recurrence_site_verification.json",
+    "bytes": 1287,
+    "sha256": "ae2a8b08d5edc2c4173d301ca3014bd97a6bffe8475a0800833752cacfcdda53"
+  },
+  {
+    "path": "outputs/regional_fire_comparison.png",
+    "bytes": 108968,
+    "sha256": "abaddd8c53a4f9f6cc35d95b4f730627268a51263d4ab465fba379bf614701a3"
+  },
+  {
+    "path": "outputs/reproduce_analysis.md",
+    "bytes": 3605,
+    "sha256": "0c4d962093994a0d3e4f0b5f8d1943c2570c47f0d06fd66b93997dd5b928286e"
+  },
+  {
+    "path": "outputs/retention_by_region.csv",
+    "bytes": 1385,
+    "sha256": "e1a6788e7876e3829a54bc79676ba1980afe5891f3292f4c5a9d8d6c151515ec"
+  },
+  {
+    "path": "outputs/reviewed_case_physical_checks.json",
+    "bytes": 7223,
+    "sha256": "366deb1180f627eae0c62461a3a9eafb6348bc68e79dd7c6d3c8828a2aea69d5"
+  },
+  {
+    "path": "outputs/rural_urban_story_chart_data.csv",
+    "bytes": 395,
+    "sha256": "311c091daf4b69a3717c353f7a07495b30219fd4a6e7993efddf53a19c5700ca"
+  },
+  {
+    "path": "outputs/rural_urban_story_overview.png",
+    "bytes": 218759,
+    "sha256": "fa765f13c8b71e9184bf817af4a5d28f768300343e1fafd6017eac43e90a96bb"
+  },
+  {
+    "path": "outputs/same_site_comparison.png",
+    "bytes": 328236,
+    "sha256": "2b24b7c68c901b45893c2e410928a133d90aab0115489b4b0a3875bd1e66ff9b"
+  },
+  {
+    "path": "outputs/story_evidence_notes.json",
+    "bytes": 4458,
+    "sha256": "063e2b323e075459b09fb0dc71aa7754ae43da284e2762f22ca86018dbfc9694"
+  },
+  {
+    "path": "outputs/validation.json",
+    "bytes": 4462,
+    "sha256": "95c25960f8fbacb886de620518edbed898caafacdc8d2d2b5bd282d56315ebb3"
+  },
+  {
+    "path": "outputs/wildfire_story_exposure_groups.csv",
+    "bytes": 903,
+    "sha256": "ce7ef982c9403be0e3d839a33cf2522492a0f99152edd70a84d946f402788e9e"
+  },
+  {
+    "path": "outputs/wildfire_story_group_composition.csv",
+    "bytes": 1229,
+    "sha256": "64da0f18d145bcd0bf2d99e839fde99a67731e291a6c532ed227018ad6143cad"
+  },
+  {
+    "path": "outputs/wildfire_story_overview.png",
+    "bytes": 290685,
+    "sha256": "80a0867bbde9b9df99f7348adb3b2c02f7edf14b563afa368075eb20520d9b50"
+  },
+  {
+    "path": "outputs/wildfire_story_summary.json",
+    "bytes": 1435,
+    "sha256": "da5c42078a058f8804d0eff3e1033bfab0840e0704e09c773603fa573802f1ee"
+  },
+  {
+    "path": "work/analyze_discovery.py",
+    "bytes": 2647,
+    "sha256": "10976ebf6d7505c81bbb559c86a8d4a5e3bb283bdeb32aca39f2097d927983fc"
+  },
+  {
+    "path": "work/analyze_equity.py",
+    "bytes": 15306,
+    "sha256": "da52197822436ff5d7385ebe6feb41a9fef8e7a33ec38e07f67e6db20a64a09e"
+  },
+  {
+    "path": "work/audit_name_displacements.py",
+    "bytes": 2163,
+    "sha256": "ced431fb553d77beded0051aceafcf7eb7e66a7387e8b9b34564d7260dc6962c"
+  },
+  {
+    "path": "work/build_case_audit.py",
+    "bytes": 20040,
+    "sha256": "391ee4e34f70b34991bbf117502b0f1180ebcc3822f92c8c513739b685140e1d"
+  },
+  {
+    "path": "work/build_equity_report.py",
+    "bytes": 27226,
+    "sha256": "54d922b3ce3b7ea43b0a38b46ad1dc4d4a0c87bff8356cc1f501857890aac035"
+  },
+  {
+    "path": "work/build_report.py",
+    "bytes": 16919,
+    "sha256": "3257c6bbb472603d727d545ba1a5528afa2a25e6b03e239403c6b05dffb56512"
+  },
+  {
+    "path": "work/build_story_overview.py",
+    "bytes": 5460,
+    "sha256": "42c144757528d3ccf592716cef3be8f7f1d254380de6d3b22e140e6c7707bf96"
+  },
+  {
+    "path": "work/build_wildfire_story.py",
+    "bytes": 8050,
+    "sha256": "dc9ee77be674e41ebb4eac004ba6d3cceddd8270e2f77b08b09eaf2549db961a"
+  },
+  {
+    "path": "work/case_decisions.json",
+    "bytes": 17828,
+    "sha256": "3cb777f938ab85f7bccbe1931ffcb89b0da5d51b0e0b3ffbe146a06b4e5b6913"
+  },
+  {
+    "path": "work/check_recurrence_candidates.py",
+    "bytes": 1253,
+    "sha256": "e29f63be38ce1f7f9fb0d2a7efe5af3846aa002cb1b4d702c0e55776f30ffcb3"
+  },
+  {
+    "path": "work/eastern-ok_all_ten_buildings_map.geojson",
+    "bytes": 302522,
+    "sha256": "a666323a81ed2bc9cc5888fbbb2586186d798dc14b10c8a19a144f42a1a79de1"
+  },
+  {
+    "path": "work/eastern-ok_all_ten_roads_map.geojson",
+    "bytes": 147057,
+    "sha256": "7d06c6338bc4139547a45775eaa4b4b78ed757053336ab8e2aa7efb6d62ef479"
+  },
+  {
+    "path": "work/eastern-ok_buildings_map.geojson",
+    "bytes": 584831,
+    "sha256": "ceb5ddddb35a41d9c0333de494b4912a40e1691ced1b12a01bead5304560fa22"
+  },
+  {
+    "path": "work/eastern-ok_roads_map.geojson",
+    "bytes": 234742,
+    "sha256": "bf5d62fd7400911a8cf8d157f5f456899d2bbc8a1d1d617b0abb1502742ed848"
+  },
+  {
+    "path": "work/eastern-wa_all_ten_buildings_map.geojson",
+    "bytes": 221176,
+    "sha256": "65574a10a5898f9bce714dc6488f9e3a17029929316a3e838355e320c73c904e"
+  },
+  {
+    "path": "work/eastern-wa_all_ten_roads_map.geojson",
+    "bytes": 35729,
+    "sha256": "3586bdb36501d752e3057aff3363da95b2120cab1532593ca41fbd834d664c5a"
+  },
+  {
+    "path": "work/equity_analysis_protocol.json",
+    "bytes": 3110,
+    "sha256": "3e09d204dd046f21498f458c31b3bf3abb9258b360aecac197893e602a15c61e"
+  },
+  {
+    "path": "work/equity_followup_checks.py",
+    "bytes": 6224,
+    "sha256": "aee582358bc8aede61e01548791337de5fa35bcac404135ac153dca2bdf3f59e"
+  },
+  {
+    "path": "work/equity_followup_protocol.json",
+    "bytes": 834,
+    "sha256": "c8581114ca471182149c19eeaabe75f078f1c95ff43cdf45b279bf3be75bee41"
+  },
+  {
+    "path": "work/equity_strict_pairs_0.05.csv",
+    "bytes": 13116,
+    "sha256": "4a24eaf1a2ed83df4cf50b32b23d7726f847c28c9add527891a6b141ac7b3ada"
+  },
+  {
+    "path": "work/equity_strict_pairs_0.1.csv",
+    "bytes": 20281,
+    "sha256": "64f281b979fdf7e32f856e0f0fb59c8f80b26d67e4a59b00b54aa19452cca09b"
+  },
+  {
+    "path": "work/export_case_evidence.py",
+    "bytes": 1276,
+    "sha256": "1f36026cf03c58f3c6be49028387ddcc44ec22ad5255e66229f705a1a197a2c0"
+  },
+  {
+    "path": "work/extract_full_case_context.py",
+    "bytes": 1681,
+    "sha256": "5e4c62ff3222e44bed0934f2f9e1f2630ab6a93c0aace294f6d60f8c410aeaed"
+  },
+  {
+    "path": "work/fetch_all_ten_maps.py",
+    "bytes": 1446,
+    "sha256": "6981e6124c58db99768c999cd2431379b9764d84530b17e5da00b8402142195f"
+  },
+  {
+    "path": "work/fetch_case_histories.py",
+    "bytes": 1386,
+    "sha256": "1c65ae1f08198739d0dacf40418f51d706a5af01acf9c068765f4d8cb3f6aa55"
+  },
+  {
+    "path": "work/fetch_map_layers.py",
+    "bytes": 3563,
+    "sha256": "b98c94a75bb2096372c4183517d3e80d779b78777eb8bfe691ecc275f0a6c4e6"
+  },
+  {
+    "path": "work/fetch_mesa_case_maps.py",
+    "bytes": 1288,
+    "sha256": "7cfcc36ceab5c5901e3c3f8c599e2e02846e3dc380f2007e8051bc7d44995f81"
+  },
+  {
+    "path": "work/full_case_context.json",
+    "bytes": 1942162,
+    "sha256": "a306afe5fe29058ccbe4f22e561c988b4b299a5c9e456dfe3bb701ecdd8b7f6b"
+  },
+  {
+    "path": "work/map_windows.json",
+    "bytes": 197,
+    "sha256": "7f5245d0ccb1758a5a42b1890f998e9c8059744268868fd6dc42d6f3eac8f450"
+  },
+  {
+    "path": "work/maricopa-az_mesa_buildings_map.geojson",
+    "bytes": 135248,
+    "sha256": "2693e28fb177f6f1355e07b089544a0fbdf7ca36584b8cee401477818b148ee7"
+  },
+  {
+    "path": "work/maricopa-az_mesa_roads_map.geojson",
+    "bytes": 23526,
+    "sha256": "7ea8645859cec4b01c835076cab5607602854f82e95a2f8caf3dea35068a340e"
+  },
+  {
+    "path": "work/northern-ca_all_ten_buildings_map.geojson",
+    "bytes": 134069,
+    "sha256": "de2bfa9f7020fc9a88e0d94a3c703cb4b33a1aec8d6c5d3d8a1c15fb2d8f6371"
+  },
+  {
+    "path": "work/northern-ca_all_ten_roads_map.geojson",
+    "bytes": 46808,
+    "sha256": "e7d3a0641d2b482f0a15dc877df880fc26cae315b2ba85df6ed60d88e4bbed42"
+  },
+  {
+    "path": "work/original_ten_cases.json",
+    "bytes": 38707,
+    "sha256": "d97fe92f42fb4f876c939d89c90ed7fbbe82475d369950378fa9a5ea731081c5"
+  },
+  {
+    "path": "work/recurrence_candidates.json",
+    "bytes": 42441,
+    "sha256": "c822360b7d5e608e83983d25dfc2a291125dc8edcf019da2124ff4e7de8dbaf6"
+  },
+  {
+    "path": "work/render_figures.py",
+    "bytes": 8977,
+    "sha256": "4f9893186a5dfbf14a1bf00161c3ab34a96f968fc0a1e774b2f09b61045b84c9"
+  },
+  {
+    "path": "work/reproduce_analysis.md",
+    "bytes": 3605,
+    "sha256": "0c4d962093994a0d3e4f0b5f8d1943c2570c47f0d06fd66b93997dd5b928286e"
+  },
+  {
+    "path": "work/resolve_address_cases.py",
+    "bytes": 1596,
+    "sha256": "55e6797ddc2dc6c9da4e78ed907654220b27864551b805407daea5f6d3029c97"
+  },
+  {
+    "path": "work/retry_regions_tiled.py",
+    "bytes": 2686,
+    "sha256": "6a45d8c06330dba1bb7b3c0f6ed1fa2e021033084194b27b0cd1459b3847832f"
+  },
+  {
+    "path": "work/retry_texas_subtiles.py",
+    "bytes": 2955,
+    "sha256": "ac98c927e9bed23820d7dc8c9683c68777a3c84965bb58ef41b1fdcb4f608a3f"
+  },
+  {
+    "path": "work/run_discovery.py",
+    "bytes": 8820,
+    "sha256": "cfc76b48f08b9c9f9c87a05a03fde692a557cbf438a2d6deaa6252473a1e9a06"
+  },
+  {
+    "path": "work/story_analysis_notes.md",
+    "bytes": 7639,
+    "sha256": "0c5114b728397eb5e1c98218c4dec8e46d996b7067e768a4928ecd6bc9b68397"
+  },
+  {
+    "path": "work/story_writeup.md",
+    "bytes": 7184,
+    "sha256": "855d43e9db8b734e1a4870a6551041609b55dd90c44f61841064ca79cc86ddab"
+  },
+  {
+    "path": "work/validate_and_package.py",
+    "bytes": 15710,
+    "sha256": "e14d9a9bb8bb26e9b33683e13d003d5ebee312f199d662efeca6f193d85dda5c"
+  },
+  {
+    "path": "work/validate_equity.py",
+    "bytes": 5618,
+    "sha256": "4c246d3fd857dd1afb5c3b2775212ff1cfe10d0543055b8876782889df1795d1"
+  },
+  {
+    "path": "work/osm/eastern-ok.json",
+    "bytes": 2332134,
+    "sha256": "c3c5b5da0ab4170a541e6cae2a90fd08a6f136c448148ae43f502a89794982df"
+  },
+  {
+    "path": "work/osm/eastern-ok.overpassql",
+    "bytes": 149,
+    "sha256": "e91022197712c3a6624de0522ef432c09d98785d0bab81e62a5381dcb669271e"
+  },
+  {
+    "path": "work/osm/eastern-ok.retrieval.json",
+    "bytes": 315,
+    "sha256": "6b6caae26eea35beddf717b1688fd90700d17ff14103dd318128fa34d2219991"
+  },
+  {
+    "path": "work/osm/eastern-ok.sites.geojson",
+    "bytes": 2690464,
+    "sha256": "c2a2d80403fb516d9babaefd7ca81af1a6fcc4e188636d2dea1336dd93e10cd9"
+  },
+  {
+    "path": "work/osm/eastern-wa.json",
+    "bytes": 573912,
+    "sha256": "619e936b25ac3d20e236a7cd4cf1c7756a03cac4459e0c9160f355279ad5cb99"
+  },
+  {
+    "path": "work/osm/eastern-wa.overpassql",
+    "bytes": 140,
+    "sha256": "990656bb2db17ac3c50a9cba80cf575327ad0eeb03145376aef97a7e4f8752de"
+  },
+  {
+    "path": "work/osm/eastern-wa.retrieval.json",
+    "bytes": 317,
+    "sha256": "cc81e58d808ea98f9c6055936984d54a2d5c89ba8dee7b87db103c4f5ba2a075"
+  },
+  {
+    "path": "work/osm/eastern-wa.sites.geojson",
+    "bytes": 412053,
+    "sha256": "3d49cb6e82a6aa189311190f0c4a7a1ee2f137af3c865d5ad0d408e651030f6a"
+  },
+  {
+    "path": "work/osm/maricopa-az.json",
+    "bytes": 580186,
+    "sha256": "381f3047f351d5ce65c6a8676bd1b6bcd1dac87328d77a2d431371cd3c645131"
+  },
+  {
+    "path": "work/osm/maricopa-az.overpassql",
+    "bytes": 139,
+    "sha256": "4bd5ad3e24308772620c39d01b9cf3e17e5b2c86b867d60bc04ef8bf9940ebe3"
+  },
+  {
+    "path": "work/osm/maricopa-az.retrieval.json",
+    "bytes": 1173,
+    "sha256": "d0e11139503b445d937173536ae461c57abdaf8ffcad0bfe49fdc81e1a367b40"
+  },
+  {
+    "path": "work/osm/maricopa-az.sites.geojson",
+    "bytes": 663685,
+    "sha256": "8e4f680266a640d34e9e7bc15ec3dc9a27a4f17bf52262bbb153debc3a69653a"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile0.json",
+    "bytes": 388920,
+    "sha256": "53bc38766e54ea2eeb41542b4b67453eaa8cf2db35883e4f1ea4872e32b9eda2"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile0.overpassql",
+    "bytes": 137,
+    "sha256": "b0e9b28aae625553d1d992eaccdeef11e4079f89c096892917affc4496000f7c"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile1.json",
+    "bytes": 157398,
+    "sha256": "c998a381eb64fd3d56349c82292747f0d955202d7f005194bf3c33c601df2033"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile1.overpassql",
+    "bytes": 137,
+    "sha256": "134c99413b1e2a86266a092f4850fff7875b8ad8d284009565733c313e255fa3"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile2.json",
+    "bytes": 93013,
+    "sha256": "dc1147456d9576e52e8845edf6d6aff1274bfcd4bfc7d6b3a783634ffc080a0a"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile2.overpassql",
+    "bytes": 138,
+    "sha256": "6b9ddf5bb73b54eba307be64a2c8c0b6f87b27bd8934a70a39782b6d159245bf"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile3.json",
+    "bytes": 44580,
+    "sha256": "1b74033b449b96404aba6ce139082ce8926a8ea1423767cb99952ebb763422b6"
+  },
+  {
+    "path": "work/osm/maricopa-az.tile3.overpassql",
+    "bytes": 138,
+    "sha256": "c5896b1fcdb251e073168f6e92d0782572e046fb2a81d90fe64dcbd8aaea119e"
+  },
+  {
+    "path": "work/osm/northern-ca.json",
+    "bytes": 450266,
+    "sha256": "683314d925baf18ef0d507ea62c7ccab6eeace1d31ffaeaf19ab9d2b9c43b978"
+  },
+  {
+    "path": "work/osm/northern-ca.overpassql",
+    "bytes": 139,
+    "sha256": "52257c1f232d45df3525d61696534b20a96a4e458d64f2e85b70d5cd612ed7e0"
+  },
+  {
+    "path": "work/osm/northern-ca.retrieval.json",
+    "bytes": 316,
+    "sha256": "5aa71076b995cbdd0069ea19c70ee54483dd39f7febdce8c51277e49f273bccf"
+  },
+  {
+    "path": "work/osm/northern-ca.sites.geojson",
+    "bytes": 439052,
+    "sha256": "0e406341174bd156f9f40440256841b77cf589fd133d706b145ccaeed99716a9"
+  },
+  {
+    "path": "work/osm_history/node_3838469709.json",
+    "bytes": 511,
+    "sha256": "feeb7b993e3be8cac616313bec10bb3a45b96abd2add1c3d2a61e77e95949aae"
+  },
+  {
+    "path": "work/osm_history/node_7117591984.json",
+    "bytes": 977,
+    "sha256": "357af1a49d270c7cd69efc1dede4d53f692832b962ef34ec918610d94cf7114b"
+  },
+  {
+    "path": "work/osm_history/node_7717447935.json",
+    "bytes": 508,
+    "sha256": "7f1e5da7fd69e39b1e4228850f744cff8566842a990797dd8fb497335d068e21"
+  },
+  {
+    "path": "work/osm_history/review_history.json",
+    "bytes": 10311,
+    "sha256": "f9fc8b5cb4615f7d84d64fe92da65554aa8fca49e8e55e4e794eec6b34e48955"
+  },
+  {
+    "path": "work/osm_history/way_1246184931.json",
+    "bytes": 713,
+    "sha256": "a0cdfb2983680e846cface310c0c7f8b26c9f5ef2986375d0c60bc9283c29442"
+  },
+  {
+    "path": "work/osm_history/way_1273496281.json",
+    "bytes": 1309,
+    "sha256": "af505518d93529e2ba3164e4d199fda01d4f2b65b331d4bd03817178c50207f7"
+  },
+  {
+    "path": "work/osm_history/way_1374824410.json",
+    "bytes": 1157,
+    "sha256": "d0ff89b1ecf3c50fbea269085220a75d857153d5ba7c62554dcfed17d07f8974"
+  },
+  {
+    "path": "work/osm_history/way_210884215.json",
+    "bytes": 721,
+    "sha256": "b51d2c1903d95507edfd0477df85c716ebd1380f9414fdc0c7867d230fa6671d"
+  },
+  {
+    "path": "work/osm_history/way_515716997.json",
+    "bytes": 1965,
+    "sha256": "79a6423751eeeb132df71c48128af922b0485a3664138a210428943dcc958c9a"
+  },
+  {
+    "path": "work/osm_history/way_524779554.json",
+    "bytes": 551,
+    "sha256": "9be2dfd7bcb2d34c1ef4197c52de59432643ebed67d9d48288b1e0e5eea7ad06"
+  },
+  {
+    "path": "work/osm_history/way_788070385.json",
+    "bytes": 865,
+    "sha256": "6a89ac69c68705cc97c9766bd875c04b3f9f59589904882823d670370b516f41"
+  },
+  {
+    "path": "work/public_gis/mendocino_address_item.json",
+    "bytes": 1799,
+    "sha256": "5c3c12fe65205501a46754d686802edf1113e1130f13d8ffe32ee83b9c52873d"
+  },
+  {
+    "path": "work/public_gis/mendocino_address_layer.json",
+    "bytes": 12536,
+    "sha256": "24786f2ff96bbca1d3b50c1ad01c91773c66bd6fe2461feebc0d9fc1b22dec3f"
+  },
+  {
+    "path": "work/review_sources/additional_manifest.json",
+    "bytes": 1752,
+    "sha256": "9a8425b08b27a8fa6cf51fe729726a648ed1b19a585370dfb427c2a828433db1"
+  },
+  {
+    "path": "work/review_sources/manifest.json",
+    "bytes": 3130,
+    "sha256": "cde9b8196f646488ee63377d4603d33d01e231d3b6c420fd5af60d8b1eb23a6c"
+  },
+  {
+    "path": "work/review_sources/visual_source_observations.json",
+    "bytes": 595,
+    "sha256": "558533d830170dcb381af7abbe5440dbeb7d0c14d393580516c55ba348d86d38"
+  },
+  {
+    "path": "work/review_sources/washington_plan_relevant_excerpt.txt",
+    "bytes": 756,
+    "sha256": "3c0c5c39055c00c819d2b604a608b12158535d19acad4bbfff18f867b4b9848c"
+  },
+  {
+    "path": "work/review_sources/westport_official_address_query.json",
+    "bytes": 1285,
+    "sha256": "ed54272242573433712592736403253d95382a894d43c464966f8e39523dbfc7"
+  }
+]

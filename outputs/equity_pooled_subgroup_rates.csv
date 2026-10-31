@@ -1,0 +1,41 @@
+analysis,ur_class,sites,tracts,counties,sparse,matched_50m,rate_50m,matched_100m,rate_100m,matched_200m,rate_200m,svi_band,high_wildfire,tribal_band
+rurality,,1,1,1,True,1,1.0,1,1.0,1,1.0,,,
+rurality,Rural,616,357,113,False,269,0.4366883116883117,285,0.46266233766233766,292,0.474025974025974,,,
+rurality,Urban,755,676,66,False,549,0.7271523178807947,558,0.7390728476821192,564,0.7470198675496689,,,
+rurality_svi,,1,1,1,True,1,1.0,1,1.0,1,1.0,Unknown SVI,,
+rurality_svi,Rural,153,88,47,False,68,0.4444444444444444,69,0.45098039215686275,72,0.47058823529411764,High SVI,,
+rurality_svi,Rural,401,229,100,False,170,0.4239401496259352,184,0.45885286783042395,187,0.46633416458852867,Intermediate SVI,,
+rurality_svi,Rural,58,39,26,False,31,0.5344827586206896,32,0.5517241379310345,33,0.5689655172413793,Low SVI,,
+rurality_svi,Rural,4,1,1,True,0,0.0,0,0.0,0,0.0,Unknown SVI,,
+rurality_svi,Urban,234,204,51,False,178,0.7606837606837606,180,0.7692307692307693,181,0.7735042735042735,High SVI,,
+rurality_svi,Urban,340,308,49,False,240,0.7058823529411765,245,0.7205882352941176,250,0.7352941176470589,Intermediate SVI,,
+rurality_svi,Urban,172,157,26,False,126,0.7325581395348837,128,0.7441860465116279,128,0.7441860465116279,Low SVI,,
+rurality_svi,Urban,9,7,4,True,5,0.5555555555555556,5,0.5555555555555556,5,0.5555555555555556,Unknown SVI,,
+rurality_wildfire,,1,1,1,True,1,1.0,1,1.0,1,1.0,,Other wildfire exposure,
+rurality_wildfire,Rural,457,260,88,False,201,0.43982494529540483,212,0.4638949671772429,218,0.47702407002188185,,High wildfire exposure,
+rurality_wildfire,Rural,159,97,44,False,68,0.4276729559748428,73,0.4591194968553459,74,0.46540880503144655,,Other wildfire exposure,
+rurality_wildfire,Urban,133,114,33,False,80,0.6015037593984962,82,0.6165413533834586,84,0.631578947368421,,High wildfire exposure,
+rurality_wildfire,Urban,622,562,57,False,469,0.7540192926045016,476,0.7652733118971061,480,0.7717041800643086,,Other wildfire exposure,
+rurality_svi_wildfire,,1,1,1,True,1,1.0,1,1.0,1,1.0,Unknown SVI,Other wildfire exposure,
+rurality_svi_wildfire,Rural,107,62,34,False,46,0.42990654205607476,47,0.4392523364485981,49,0.45794392523364486,High SVI,High wildfire exposure,
+rurality_svi_wildfire,Rural,46,26,18,False,22,0.4782608695652174,22,0.4782608695652174,23,0.5,High SVI,Other wildfire exposure,
+rurality_svi_wildfire,Rural,302,169,74,False,131,0.4337748344370861,140,0.46357615894039733,143,0.4735099337748344,Intermediate SVI,High wildfire exposure,
+rurality_svi_wildfire,Rural,99,60,37,False,39,0.3939393939393939,44,0.4444444444444444,44,0.4444444444444444,Intermediate SVI,Other wildfire exposure,
+rurality_svi_wildfire,Rural,44,28,21,False,24,0.5454545454545454,25,0.5681818181818182,26,0.5909090909090909,Low SVI,High wildfire exposure,
+rurality_svi_wildfire,Rural,14,11,7,True,7,0.5,7,0.5,7,0.5,Low SVI,Other wildfire exposure,
+rurality_svi_wildfire,Rural,4,1,1,True,0,0.0,0,0.0,0,0.0,Unknown SVI,High wildfire exposure,
+rurality_svi_wildfire,Urban,27,21,16,False,19,0.7037037037037037,20,0.7407407407407407,20,0.7407407407407407,High SVI,High wildfire exposure,
+rurality_svi_wildfire,Urban,207,183,46,False,159,0.7681159420289855,160,0.7729468599033816,161,0.7777777777777778,High SVI,Other wildfire exposure,
+rurality_svi_wildfire,Urban,51,44,18,False,26,0.5098039215686274,27,0.5294117647058824,29,0.5686274509803921,Intermediate SVI,High wildfire exposure,
+rurality_svi_wildfire,Urban,289,264,41,False,214,0.740484429065744,218,0.754325259515571,221,0.7647058823529411,Intermediate SVI,Other wildfire exposure,
+rurality_svi_wildfire,Urban,50,45,12,False,32,0.64,32,0.64,32,0.64,Low SVI,High wildfire exposure,
+rurality_svi_wildfire,Urban,122,112,19,False,94,0.7704918032786885,96,0.7868852459016393,96,0.7868852459016393,Low SVI,Other wildfire exposure,
+rurality_svi_wildfire,Urban,5,4,3,True,3,0.6,3,0.6,3,0.6,Unknown SVI,High wildfire exposure,
+rurality_svi_wildfire,Urban,4,3,2,True,2,0.5,2,0.5,2,0.5,Unknown SVI,Other wildfire exposure,
+rurality_tribal,,1,1,1,True,1,1.0,1,1.0,1,1.0,,,No tribal-area overlap
+rurality_tribal,Rural,114,92,48,False,54,0.47368421052631576,58,0.5087719298245614,62,0.543859649122807,,,At least 50% tribal-area overlap
+rurality_tribal,Rural,398,217,61,False,163,0.40954773869346733,173,0.43467336683417085,176,0.44221105527638194,,,No tribal-area overlap
+rurality_tribal,Rural,104,48,32,False,52,0.5,54,0.5192307692307693,54,0.5192307692307693,,,Some overlap below 50%
+rurality_tribal,Urban,94,87,22,False,66,0.7021276595744681,68,0.723404255319149,69,0.7340425531914894,,,At least 50% tribal-area overlap
+rurality_tribal,Urban,646,580,47,False,475,0.7352941176470589,481,0.7445820433436533,486,0.7523219814241486,,,No tribal-area overlap
+rurality_tribal,Urban,15,9,7,True,8,0.5333333333333333,9,0.6,9,0.6,,,Some overlap below 50%

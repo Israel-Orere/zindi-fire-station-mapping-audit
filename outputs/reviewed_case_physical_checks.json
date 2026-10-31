@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Eufaula Fire Department",
+    "region": "eastern-ok",
+    "distance_km": 0.5775845152548585,
+    "same_tract": true,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 14.578170346430616,
+        "building_ids": [
+          "f63baed9-6645-4dba-bedd-ecf879838916"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 10.616696195952294,
+        "building_ids": [
+          "ee3fc9fc-490d-4699-a44f-de1e40bad8ee"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Webbers Falls Volunteer Fire Department",
+    "region": "eastern-ok",
+    "distance_km": 1.0303108391076392,
+    "same_tract": true,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 2,
+        "point_inside_building": false,
+        "nearest_road_m": 0.6642496650275611,
+        "building_ids": [
+          "a4366b19-819e-4940-b9d3-1620bdf63057",
+          "78bbbd8b-4a20-4427-baf5-efe7f42ca230"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 116.71744714409392,
+        "building_ids": [
+          "585adf52-4516-4b52-8089-d366c45ecb91"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Porum Volunteer Fire Department",
+    "region": "eastern-ok",
+    "distance_km": 44.44342011183742,
+    "same_tract": false,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 31.39726617328782,
+        "building_ids": [
+          "b895ff27-772b-4c8d-8906-3ef820d42290"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 18.62915308752196,
+        "building_ids": [
+          "33ae5226-7a19-416b-8b87-85afddec2969"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Washington County Fire Department",
+    "region": "eastern-ok",
+    "distance_km": 2.899799286459865,
+    "same_tract": false,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 66.96013550474589,
+        "building_ids": [
+          "775656e2-2f2a-4c8f-bc01-8f377d82349b"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 54.31325008357308,
+        "building_ids": []
+      }
+    }
+  },
+  {
+    "name": "Broken Arrow Fire Station #3",
+    "region": "eastern-ok",
+    "distance_km": 3.885881017648205,
+    "same_tract": false,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 28.274898791279558,
+        "building_ids": [
+          "99ff8799-b9fc-41d6-bea1-54e4453be4e7"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 36.89606400168158,
+        "building_ids": [
+          "79e1e602-8909-4701-bec1-e71b87e518f1"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Yakima County Fire District #5",
+    "region": "eastern-wa",
+    "distance_km": 21.871206683270813,
+    "same_tract": false,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 32.21901546257251,
+        "building_ids": [
+          "eb48e101-6722-4292-81e0-6cc9df9df74a"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 34.53976480966202,
+        "building_ids": [
+          "27f1be38-57a3-4db6-9169-5783795fb37f"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Westport Volunteer Fire Department",
+    "region": "northern-ca",
+    "distance_km": 0.6163959179961723,
+    "same_tract": true,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 139.8906266406175,
+        "building_ids": [
+          "ec512b6d-d602-4142-bdb5-3738563e355f"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 13.790872963713186,
+        "building_ids": []
+      }
+    }
+  },
+  {
+    "name": "Redding Fire Department",
+    "region": "northern-ca",
+    "distance_km": 3.0334454852865322,
+    "same_tract": false,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 25.43375761712596,
+        "building_ids": [
+          "a77dfdd2-68f3-456f-8c3f-7d2efe726159"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 148.71075791965117,
+        "building_ids": [
+          "4403bad7-bdc5-4c9a-b5a1-d9419e27254c"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Shingletown Volunteer Fire Department",
+    "region": "northern-ca",
+    "distance_km": 6.363880613112602,
+    "same_tract": true,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 21.91085198875997,
+        "building_ids": [
+          "7823db09-f152-4251-8a4e-c01a15e33da5"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 102.88229432461738,
+        "building_ids": []
+      }
+    }
+  },
+  {
+    "name": "Foresthill Fire Station",
+    "region": "northern-ca",
+    "distance_km": 7.621227809738168,
+    "same_tract": true,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 4,
+        "point_inside_building": true,
+        "nearest_road_m": 16.14691519110048,
+        "building_ids": [
+          "9702aaa1-9668-4b97-aeaa-4b1e1f46b3c7",
+          "4e82d333-6b9f-493d-8515-41d2039c4acf",
+          "0c1c9703-a81f-49a4-a6c8-06046f119ad6",
+          "da22609a-587e-4f8e-878a-9d08a1908b90"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 12.051270140450002,
+        "building_ids": []
+      }
+    }
+  },
+  {
+    "name": "Mesa Fire & Medical Department",
+    "region": "maricopa-az",
+    "distance_km": 14.207712811987218,
+    "same_tract": false,
+    "sites": {
+      "osm": {
+        "overlapping_buildings": 2,
+        "point_inside_building": true,
+        "nearest_road_m": 10.275320871896133,
+        "building_ids": [
+          "61c36b09-7894-4c10-9578-c603179522be",
+          "40d3eb28-bd12-48c0-b83a-99ad6acdfc9d"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 43.50937792375045,
+        "building_ids": [
+          "96926b92-89aa-4cc9-bdb5-a7bc4277e793"
+        ]
+      }
+    }
+  }
+]

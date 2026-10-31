@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-24",
+  "document": "bias_discovery_writeup.md",
+  "observed": [
+    "Porum same-name point separation and county contract address",
+    "Westport offset, department address, county working address point and retained building",
+    "Supplied tract social-vulnerability and landscape-exposure attributes",
+    "Conditional four-region correspondence patterns"
+  ],
+  "historical_or_current_context": [
+    "Porum listed in the 14 January 2007 outage report",
+    "Westport departmental website describes 14 volunteers and a 190-square-mile area when checked in October 2026"
+  ],
+  "hypothetical_consequences": [
+    {
+      "scenario": "Local resource-directory search",
+      "mechanism": "A 5 km search centred on the OSM station site excludes the Porum same-name point approximately 44.4 km away",
+      "limit": "No claim that all other fire records are absent within 5 km, that this was a real relief workflow, or that the tract has no real service"
+    },
+    {
+      "scenario": "Westport crew rendezvous",
+      "mechanism": "Selecting the same-name record as a meeting coordinate uses a point approximately 616 m from the corroborated site",
+      "limit": "No actual trip, delay or harm observed; replacement coordinates require operational confirmation"
+    },
+    {
+      "scenario": "Count-only preparedness assessment",
+      "mechanism": "Westport origin and displaced point share a tract, so shifting the point between them need not change a tract-level count",
+      "limit": "No assertion about a specific organiser score or deployed system"
+    }
+  ],
+  "narrative_integrity": [
+    "No invented people, quotations, conversations or emergency incidents",
+    "No dispatch-use claim",
+    "No observed-harm claim",
+    "Populations refer to census tracts rather than town populations or service catchments",
+    "Social vulnerability is tract context, not an inference about each resident",
+    "Rural, social-vulnerability and tribal nulls/uncertainty remain visible",
+    "All source caveats and the urban counterexample remain linked"
+  ],
+  "narrative_order": [
+    "Plain-language equity concern and definition of the two-map comparison",
+    "Observed rural/urban gap in every complete region, with direct regional bars and exact denominators",
+    "Discovery-led wildfire deep dive with observed group rates and the adjusted association; full qualifications linked in article_analysis_notes.md",
+    "Community deep dives: Porum and Westport, with site visuals",
+    "Explicitly hypothetical consequences",
+    "Practical response and evidence scope, including adjusted and subgroup limits"
+  ],
+  "editorial_priority": "Lead with the general equity story; communities illustrate the finding rather than serve as the basis for inferring a population-level disparity.",
+  "editorial_revision_date": "2026-10-27",
+  "lead_chart": {
+    "file": "rural_urban_story_overview.png",
+    "definition": "Site-level share with a compatible-category Overture listing within 100 m of OSM geometry",
+    "denominators": "All fire sites in each region and Rural/Urban group; not the one-station-tract subset",
+    "excluded": "One site with unknown rurality; incomplete Texas",
+    "limits": "Descriptive map correspondence, not confirmed omission prevalence or an independent causal rural penalty"
+  },
+  "wildfire_deep_dive": {
+    "added": "2026-10-27",
+    "figure": "wildfire_story_overview.png",
+    "data": "wildfire_story_exposure_groups.csv",
+    "composition": "wildfire_story_group_composition.csv",
+    "scope": "Descriptive presentation added after the earlier analysis; all 12 region/exposure cells disclosed; no new model fitted",
+    "key_limits": "Raw groups differ in rurality; no rural sites in lowest quarter; adjusted 25th-to-75th-rank contrast is not the group-average contrast; no causal or confirmed-omission claim",
+    "display_labels": "Least exposed = bottom 25% of regional tract ranks; middle exposure = middle 50%; most exposed = top 25%. Colours have a matching legend."
+  },
+  "reader_guide": "Lead with three discoveries: the rural/urban listing gap, the wildfire-exposure association and supported building/listing location mismatches.",
+  "qualification_placement": "One short interpretation note at the end of the article, with complete qualifications in article_analysis_notes.md and the full equity and case reports."
+}

@@ -1,0 +1,20 @@
+{
+  "strict_match_variants": [
+    {
+      "svi_caliper": 0.1,
+      "wildfire_rank_caliper": 0.1
+    },
+    {
+      "svi_caliper": 0.1,
+      "wildfire_rank_caliper": 0.05
+    }
+  ],
+  "purpose": "Assess residual imbalance in the initial matched cohort; do not select a preferred result based on its outcome.",
+  "exploratory_hazard_sensitivity": [
+    "Burn probability percentile instead of Exposure Type percentile",
+    "Exposure Type by separate region",
+    "Exposure Type after removing GNIS records and after restricting polygons",
+    "Exposure Type with and without density adjustment"
+  ],
+  "warning": "Exposure Type is a landscape average, not burn probability, housing-weighted personal exposure, station-site hazard or current fire danger. Density and exposure overlap conceptually with rurality."
+}

@@ -1,0 +1,1999 @@
+[
+  {
+    "key": "porum",
+    "name": "Porum Volunteer Fire Department",
+    "verdict": "supported_location_error",
+    "label": "Supported: wrong town",
+    "confidence": "Strong locality evidence; precise operational entrance not surveyed",
+    "finding": "The county's signed 2024 apparatus contract identifies the department at 205 North 2nd Street in Porum, postcode 74455. Overture assigns the same street number and department name to Muskogee, postcode 74401-6635, about 44.4 km away. Its supplied building layer retains the OSM station building in Porum; no compatible fire place lies within 200 m of that site.",
+    "interpretation": "A coordinate\u2013locality conflict is supported. Confusion between the same street address in different towns is a plausible mechanism, but the source-processing step has not been established. The other endpoint also intersects a building, so footprint overlap alone would not detect this error.",
+    "next_check": "Confirm the exact current entrance with the department before proposing a replacement coordinate. Use this case in the discovery narrative.",
+    "sources": [
+      {
+        "title": "Muskogee County: Porum apparatus contract, page 2, signed 21 October 2024",
+        "url": "https://muskogee.okcounties.org/file/item_8_-_contract_porum_vfd_fire_master_fire_equipment_2427.pdf",
+        "access": "Downloaded and visually read pages 1\u20132; scanned PDF has no extractable text"
+      },
+      {
+        "title": "Muskogee County: fire departments",
+        "url": "https://muskogee.okcounties.org/offices/fire-departments",
+        "access": "Archived official HTML"
+      }
+    ],
+    "region": "eastern-ok",
+    "distance_km": 44.44342011183742,
+    "same_tract": false,
+    "origin_tract": "40101001502",
+    "destination_tract": "40101000400",
+    "rurality": "Rural",
+    "overture_primary_category": "fire_protection_service",
+    "overture_confidence": 0.8428283929824829,
+    "root_source": "meta",
+    "osm_id": "way/524779554",
+    "osm_timestamp": "2017-09-14T22:34:56Z",
+    "overture_id": "b8dbd5fb-9deb-4e96-92ee-918971bdbeb5",
+    "osm_tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Porum Volunteer Fire Department"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.2647498,
+            35.3593434
+          ],
+          [
+            -95.2647391,
+            35.3590295
+          ],
+          [
+            -95.2648884,
+            35.3590261
+          ],
+          [
+            -95.2648992,
+            35.35934
+          ],
+          [
+            -95.2647498,
+            35.3593434
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "b8dbd5fb-9deb-4e96-92ee-918971bdbeb5",
+      "names": {
+        "primary": "Porum Volunteer Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "205 N 2nd St",
+          "locality": "Muskogee",
+          "postcode": "74401-6635",
+          "region": "OK",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+19184842517"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1469101023404083",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.8428283929824829,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.369732,
+          35.749149
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 31.39726617328782,
+        "building_ids": [
+          "b895ff27-772b-4c8d-8906-3ef820d42290"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 18.62915308752196,
+        "building_ids": [
+          "33ae5226-7a19-416b-8b87-85afddec2969"
+        ]
+      }
+    },
+    "nearby_compatible_fire_places_350m": [],
+    "compatible_fire_place_within_200m": false,
+    "nearby_all_places_350m_count": 14,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_porum.png"
+  },
+  {
+    "key": "broken-arrow",
+    "name": "Broken Arrow Fire Station #3",
+    "verdict": "supported_location_error",
+    "label": "Supported: stale station location",
+    "confidence": "Strong official address and relocation evidence",
+    "finding": "OSM places Station 3 at 5420 South 23rd Street. Overture's same-name record lists 8000 South Elm Place, 3.9 km away. The city-authored 2021 annual report says the new Station 3 opened on 23rd Street in August 2021; the current city facility directory also lists 5420 South 23rd. The new site's building is present in Overture but no fire-category place lies within 200 m.",
+    "interpretation": "The coordinate and address are inconsistent with the replacement station that opened roughly five years before this snapshot. The city's 2021 news archive describes replacement of the older Station 3 on South Elm Place. This urban case shows that stale location records are not confined to rural communities.",
+    "next_check": "Use as a supported recurrence example, distinguishing a stale relocation from Porum's wrong-town assignment.",
+    "sources": [
+      {
+        "title": "City of Broken Arrow: Station 3 facility directory",
+        "url": "https://www.brokenarrowok.gov/Home/Components/FacilityDirectory/FacilityDirectory/24/1154",
+        "access": "Official search-index text; direct request returned 403"
+      },
+      {
+        "title": "City-authored 2021 Fire Department Annual Report, pages 4 and 7",
+        "url": "https://fliphtml5.com/jfvjw/lvcx/2021_Broken_Arrow_Fire_Department_Annual_Report/",
+        "access": "Indexed city-authored publication; identifies address and August 2021 opening"
+      },
+      {
+        "title": "City of Broken Arrow news archive: 9 August 2021 station opening",
+        "url": "https://www.brokenarrowok.gov/i-want-to/advanced-components/list-detail-pages/news-list/-utm_medium-email/-utm_source-govdelivery/-arch-1/-npage-23",
+        "access": "Official indexed news archive describes replacement of South Elm station"
+      }
+    ],
+    "region": "eastern-ok",
+    "distance_km": 3.885881017648205,
+    "same_tract": false,
+    "origin_tract": "40143007535",
+    "destination_tract": "40143007523",
+    "rurality": "Urban",
+    "overture_primary_category": "fire_department",
+    "overture_confidence": 0.717587947845459,
+    "root_source": "meta",
+    "osm_id": "way/1273496281",
+    "osm_timestamp": "2025-01-04T14:14:42Z",
+    "overture_id": "f50fb6a8-909a-475c-a8fa-6ee1827c309e",
+    "osm_tags": {
+      "addr:housenumber": "5420",
+      "addr:postcode": "74011",
+      "addr:street": "South 23rd Street",
+      "amenity": "fire_station",
+      "building": "fire_station",
+      "name": "Broken Arrow Fire Station #3",
+      "operator": "City of Broken Arrow",
+      "operator:type": "government",
+      "operator:wikidata": "Q835810",
+      "ref": "3"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.7623278,
+            35.9960679
+          ],
+          [
+            -95.7623133,
+            35.9960678
+          ],
+          [
+            -95.7623125,
+            35.9961187
+          ],
+          [
+            -95.7623116,
+            35.9961786
+          ],
+          [
+            -95.7623097,
+            35.9963003
+          ],
+          [
+            -95.7620732,
+            35.9962979
+          ],
+          [
+            -95.762075,
+            35.9961762
+          ],
+          [
+            -95.7620759,
+            35.9961164
+          ],
+          [
+            -95.7620767,
+            35.9960655
+          ],
+          [
+            -95.7620508,
+            35.9960652
+          ],
+          [
+            -95.7620537,
+            35.9958738
+          ],
+          [
+            -95.7623308,
+            35.9958766
+          ],
+          [
+            -95.7623278,
+            35.9960679
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "f50fb6a8-909a-475c-a8fa-6ee1827c309e",
+      "names": {
+        "primary": "Broken Arrow Fire Department Station 3",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "8000 S Elm Pl",
+          "locality": "Broken Arrow",
+          "postcode": "74011-4300",
+          "region": "OK",
+          "country": "US"
+        }
+      ],
+      "phones": null,
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "142053625840996",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.717587947845459,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.79775,
+          35.976318
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 28.274898791279558,
+        "building_ids": [
+          "99ff8799-b9fc-41d6-bea1-54e4453be4e7"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 36.89606400168158,
+        "building_ids": [
+          "79e1e602-8909-4701-bec1-e71b87e518f1"
+        ]
+      }
+    },
+    "nearby_compatible_fire_places_350m": [],
+    "compatible_fire_place_within_200m": false,
+    "nearby_all_places_350m_count": 0,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_broken-arrow.png"
+  },
+  {
+    "key": "westport",
+    "name": "Westport Volunteer Fire Department",
+    "verdict": "supported_location_error",
+    "label": "Supported: address\u2013coordinate offset",
+    "confidence": "Corroborated by department address and county working address layer",
+    "finding": "The department publishes 37551 Shoreline Highway. Mendocino County Planning and Building Services' public address layer places 37551 North Highway 1 at (-123.7827827, 39.6417826), about 0.7 m from the OSM point. Overture carries the matching address but its fire place is approximately 616 m north. The local site is inside a supplied Overture building; the distant place is outside supplied footprints.",
+    "interpretation": "The published address and county address point corroborate the OSM site, supporting a misplaced fire-place coordinate. The county explicitly describes its address layer as a working layer containing errors and requiring verification; this is strong desktop corroboration, not a field survey. The 2026 county layer update predates the Overture snapshot.",
+    "next_check": "Retain as supported recurrence with the county-layer caveat. Seek department confirmation before publishing a replacement coordinate as authoritative.",
+    "sources": [
+      {
+        "title": "Westport Volunteer Fire Department: contact and physical address",
+        "url": "https://www.westportvfd.org/contact-wvfd",
+        "access": "Official department page archived"
+      },
+      {
+        "title": "Mendocino Planning and Building Services: Address Points metadata",
+        "url": "https://www.arcgis.com/home/item.html?id=8bb2807c2bbe4df58d18910ab3ec1acd",
+        "access": "Owner MendoPBS.GIS; item modified 21 May 2026; working-layer warning retained"
+      },
+      {
+        "title": "County address service: single-address verification query",
+        "url": "https://services8.arcgis.com/vVsGmpWOxUEQGPFl/arcgis/rest/services/Address_Points_033021/FeatureServer/0/query?where=SITUS_NUMB%3D%2737551%27&outFields=SITUS_ALL%2CCOMMUNITY&outSR=4326&f=pjson",
+        "access": "Single public address record queried; no countywide reference dataset created"
+      }
+    ],
+    "region": "northern-ca",
+    "distance_km": 0.6163959179961723,
+    "same_tract": true,
+    "origin_tract": "06045010200",
+    "destination_tract": "06045010200",
+    "rurality": "Rural",
+    "overture_primary_category": "fire_department",
+    "overture_confidence": 0.7837863564491272,
+    "root_source": "meta",
+    "osm_id": "node/7717447935",
+    "osm_timestamp": "2020-07-15T17:39:04Z",
+    "overture_id": "b8d23c58-82d2-444f-864b-4a0e894d51b3",
+    "osm_tags": {
+      "amenity": "fire_station",
+      "name": "Westport Volunteer Fire Department"
+    },
+    "osm_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -123.7827796,
+        39.6417772
+      ]
+    },
+    "overture_record": {
+      "id": "b8d23c58-82d2-444f-864b-4a0e894d51b3",
+      "names": {
+        "primary": "Westport Volunteer Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "37551 CA-1",
+          "locality": "Westport",
+          "postcode": "95488",
+          "region": "CA",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+17079644646"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1167851483266085",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.7837863564491272,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.7840583,
+          39.6472261
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 139.8906266406175,
+        "building_ids": [
+          "ec512b6d-d602-4142-bdb5-3738563e355f"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 13.790872963713186,
+        "building_ids": []
+      }
+    },
+    "nearby_compatible_fire_places_350m": [],
+    "compatible_fire_place_within_200m": false,
+    "nearby_all_places_350m_count": 1,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "county_address_point_distance_to_osm_m": 0.6625293638223797,
+    "figure": "case_westport.png"
+  },
+  {
+    "key": "yakima",
+    "name": "Yakima County Fire District #5",
+    "verdict": "distinct_facilities",
+    "label": "Different entities: district office and branch",
+    "confidence": "Official district and branch addresses distinguish the entities",
+    "finding": "The 21.9 km exact-name pair compares the district's office at 720 First Avenue in Zillah with its Harrah branch. The district lists Station 3 at 4111 Harrah Road and describes a network of 15 stations. Both endpoints overlap supplied Overture buildings. No compatible Overture fire place was found within 200 m of the OSM Harrah site.",
+    "interpretation": "The distance does not show a single station shifted 21.9 km. A district-wide label has been attached to a branch in OSM. The local branch's lack of a nearby fire-category place is a separate, credible coverage lead; the district office should not be moved to Harrah.",
+    "next_check": "Review branch-level coverage against the official station list and verify exact branch geometry before claiming a confirmed branch omission.",
+    "sources": [
+      {
+        "title": "Yakima County Fire District 5: district office and station network",
+        "url": "https://www.ycfd5.org/",
+        "access": "Official district HTML archived"
+      },
+      {
+        "title": "Yakima County Fire District 5: Station 3, Harrah",
+        "url": "https://www.ycfd5.org/station3harrah",
+        "access": "Official branch address verified"
+      }
+    ],
+    "region": "eastern-wa",
+    "distance_km": 21.871206683270813,
+    "same_tract": false,
+    "origin_tract": "53077940001",
+    "destination_tract": "53077002201",
+    "rurality": "Rural",
+    "overture_primary_category": "fire_department",
+    "overture_confidence": 0.9070947170257568,
+    "root_source": "meta",
+    "osm_id": "node/3838469709",
+    "osm_timestamp": "2015-11-16T06:27:45Z",
+    "overture_id": "8b034e03-93f6-44db-84ea-2c2684f6d985",
+    "osm_tags": {
+      "amenity": "fire_station",
+      "name": "Yakima County Fire District #5"
+    },
+    "osm_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -120.5437649,
+        46.4033364
+      ]
+    },
+    "overture_record": {
+      "id": "8b034e03-93f6-44db-84ea-2c2684f6d985",
+      "names": {
+        "primary": "Yakima County Fire District #5",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "720 1st Ave",
+          "locality": "Zillah",
+          "postcode": "98953-9434",
+          "region": "WA",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+15098295111"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "128014243885393",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.9070947170257568,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        },
+        {
+          "property": "/properties/operating_status",
+          "dataset": "Overture-signals",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "6ca8236f-e5d9-4e77-a69b-a6679de01f3d",
+          "update_time": "2026-07-13T15:52:52Z",
+          "confidence": 1.0,
+          "between": null,
+          "provider": "overture",
+          "resource": "operating_status_signal",
+          "version": "2026-07-13"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.25886611,
+          46.40118911
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 32.21901546257251,
+        "building_ids": [
+          "eb48e101-6722-4292-81e0-6cc9df9df74a"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 34.53976480966202,
+        "building_ids": [
+          "27f1be38-57a3-4db6-9169-5783795fb37f"
+        ]
+      }
+    },
+    "nearby_compatible_fire_places_350m": [],
+    "compatible_fire_place_within_200m": false,
+    "nearby_all_places_350m_count": 14,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_yakima.png"
+  },
+  {
+    "key": "shingletown",
+    "name": "Shingletown Volunteer Fire Department",
+    "verdict": "distinct_facilities",
+    "label": "Different entities: main station and branch",
+    "confidence": "Official three-station structure established; branch coordinate remains a lead",
+    "finding": "Overture's record uses 31990 Highway 44, the department's main-site address. The OSM building is about 6.4 km away in Starlight Pines. The department explicitly describes three stations: Alward Way, Bambi and Starlight Pines. The OSM branch building survives in supplied Overture footprints, but no compatible fire place lies within 200 m of it.",
+    "interpretation": "This is not evidence that the main-station point belongs at the branch. It is a potential missing branch identity that must be evaluated separately from coordinate accuracy. The official department page establishes multiple stations, but does not by itself pinpoint the Starlight Pines building.",
+    "next_check": "Obtain a dated official branch address or site plan to verify the Starlight Pines geometry and operational status at the snapshot.",
+    "sources": [
+      {
+        "title": "Shingletown Volunteer Fire Department: main contact address",
+        "url": "https://www.svfd20.org/",
+        "access": "Official department page"
+      },
+      {
+        "title": "Shingletown Volunteer Fire Department: three-station description",
+        "url": "https://www.svfd20.org/about-co.-20.html",
+        "access": "Official department page explicitly identifies the three branches"
+      }
+    ],
+    "region": "northern-ca",
+    "distance_km": 6.363880613112602,
+    "same_tract": true,
+    "origin_tract": "06089012603",
+    "destination_tract": "06089012603",
+    "rurality": "Rural",
+    "overture_primary_category": "fire_protection_service",
+    "overture_confidence": 0.9199122190475464,
+    "root_source": "meta",
+    "osm_id": "way/788070385",
+    "osm_timestamp": "2020-05-31T07:14:39Z",
+    "overture_id": "1f37c444-b192-47f2-b8b4-6681c0eaa133",
+    "osm_tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Shingletown Volunteer Fire Department"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -121.7928582,
+            40.5205437
+          ],
+          [
+            -121.7928621,
+            40.5203716
+          ],
+          [
+            -121.7927078,
+            40.5203698
+          ],
+          [
+            -121.7927014,
+            40.5205398
+          ],
+          [
+            -121.7928582,
+            40.5205437
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "1f37c444-b192-47f2-b8b4-6681c0eaa133",
+      "names": {
+        "primary": "Shingletown Volunteer Fire",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "31990 CA-44",
+          "locality": "Shingletown",
+          "postcode": "96088",
+          "region": "CA",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+15304743914"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "309386135601757",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.9258579015731812,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        },
+        {
+          "property": "/properties/operating_status",
+          "dataset": "Overture-signals",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "2f7daaff-d9d4-4b3b-bf5d-f86d456e431e",
+          "update_time": "2026-08-10T22:54:24Z",
+          "confidence": 1.0,
+          "between": null,
+          "provider": "overture",
+          "resource": "operating_status_signal",
+          "version": "2026-08-10"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.86132061,
+          40.49692689
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 21.91085198875997,
+        "building_ids": [
+          "7823db09-f152-4251-8a4e-c01a15e33da5"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 102.88229432461738,
+        "building_ids": []
+      }
+    },
+    "nearby_compatible_fire_places_350m": [],
+    "compatible_fire_place_within_200m": false,
+    "nearby_all_places_350m_count": 0,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_shingletown.png"
+  },
+  {
+    "key": "redding",
+    "name": "Redding Fire Department",
+    "verdict": "distinct_facilities",
+    "label": "False pairing: local station already retained",
+    "confidence": "Supplied record and official station/admin addresses agree",
+    "finding": "The exact-name match pairs OSM Station 2 at 3491 Placer Street with the department's administrative address, 777 Cypress Avenue, about 3.0 km away. Overture separately maps Redding Fire Hall about 6 m from the OSM station, with a compatible fire category. The local building is also present.",
+    "interpretation": "Exclude this from location-error and omission counts. The exact-name heuristic overlooked a differently named record that already represents the station. OSM's ref=2 tag and name history help identify the branch.",
+    "next_check": "No location-error claim. Keep as a documented negative control for entity matching.",
+    "sources": [
+      {
+        "title": "City of Redding: fire department contact",
+        "url": "https://files.cityofredding.gov/government/departments/fire_department/contact_us.php",
+        "access": "Official HTML archived; administrative address"
+      },
+      {
+        "title": "City of Redding: Community Wildfire Protection Plan",
+        "url": "https://files.cityofredding.gov/Document%20Center/Departments/Fire/FINAL_Redding_CWPP.pdf",
+        "access": "Official indexed plan lists Station 2 at 3491 Placer Street"
+      }
+    ],
+    "region": "northern-ca",
+    "distance_km": 3.0334454852865322,
+    "same_tract": false,
+    "origin_tract": "06089010500",
+    "destination_tract": "06089010400",
+    "rurality": "Urban",
+    "overture_primary_category": "fire_department",
+    "overture_confidence": 0.9199122190475464,
+    "root_source": "Foursquare",
+    "osm_id": "way/515716997",
+    "osm_timestamp": "2025-07-16T21:03:10Z",
+    "overture_id": "b67f4fd9-3659-43e3-965c-71847cd1e6cb",
+    "osm_tags": {
+      "addr:city": "Redding",
+      "addr:country": "US",
+      "addr:housenumber": "3491",
+      "addr:postcode": "96002",
+      "addr:state": "CA",
+      "addr:street": "Placer Street",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Redding Fire Department",
+      "ref": "2"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -122.4177458,
+            40.5741212
+          ],
+          [
+            -122.4174223,
+            40.5741996
+          ],
+          [
+            -122.4174778,
+            40.5743318
+          ],
+          [
+            -122.4177967,
+            40.5742522
+          ],
+          [
+            -122.4177458,
+            40.5741212
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "b67f4fd9-3659-43e3-965c-71847cd1e6cb",
+      "names": {
+        "primary": "Redding Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "777 Cypress Ave",
+          "locality": "Redding",
+          "postcode": "96001",
+          "region": "CA",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "(530) 225-4141"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "Foursquare",
+          "license": "Apache-2.0",
+          "record_id": "520cc6d85a0548a80a540b01",
+          "update_time": "2025-05-26T00:00:00.000",
+          "confidence": 0.77,
+          "between": null,
+          "provider": "foursquare",
+          "resource": "foursquare",
+          "version": "2026-04-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        },
+        {
+          "property": "/properties/operating_status",
+          "dataset": "Overture-signals",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "ff631a6e-0a89-4f24-99b9-146d59867337",
+          "update_time": "2026-08-10T22:54:24Z",
+          "confidence": 1.0,
+          "between": null,
+          "provider": "overture",
+          "resource": "operating_status_signal",
+          "version": "2026-08-10"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3817588930871,
+          40.57321822427295
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 25.43375761712596,
+        "building_ids": [
+          "a77dfdd2-68f3-456f-8c3f-7d2efe726159"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 148.71075791965117,
+        "building_ids": [
+          "4403bad7-bdc5-4c9a-b5a1-d9419e27254c"
+        ]
+      }
+    },
+    "nearby_compatible_fire_places_350m": [
+      {
+        "id": "162b4a9e-3ca2-4855-8799-7dc4f0690e41",
+        "name": "Redding Fire Hall",
+        "categories": {
+          "primary": "fire_department",
+          "alternate": [
+            "fire_protection_service"
+          ]
+        },
+        "addresses": [
+          {
+            "freeform": "3491 Placer St",
+            "locality": "Redding",
+            "postcode": "96001",
+            "region": "CA",
+            "country": "US"
+          }
+        ],
+        "confidence": 0.9199122190475464,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "meta",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": "452113748269837",
+            "update_time": "2026-08-10T00:00:00.000Z",
+            "confidence": 0.8640727996826172,
+            "between": null,
+            "provider": "meta",
+            "resource": "meta",
+            "version": "2026-08-10"
+          },
+          {
+            "property": "/properties/confidence",
+            "dataset": "Overture",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": null,
+            "update_time": "2026-08-14T19:46:07Z",
+            "confidence": null,
+            "between": null,
+            "provider": "overture",
+            "resource": "confidence_calculation",
+            "version": "2026-08-14"
+          },
+          {
+            "property": "/properties/operating_status",
+            "dataset": "Overture-signals",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": "5199d1a6-7b41-4642-9293-2d2f1a870e28",
+            "update_time": "2026-08-10T22:54:24Z",
+            "confidence": 1.0,
+            "between": null,
+            "provider": "overture",
+            "resource": "operating_status_signal",
+            "version": "2026-08-10"
+          }
+        ],
+        "distance_from_site_m": 5.637137038799489,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.41766727,
+            40.57433781
+          ]
+        }
+      }
+    ],
+    "compatible_fire_place_within_200m": true,
+    "nearby_all_places_350m_count": 43,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_redding.png"
+  },
+  {
+    "key": "foresthill",
+    "name": "Foresthill Fire Station",
+    "verdict": "distinct_facilities",
+    "label": "False pairing: separate stations; local site retained",
+    "confidence": "Official county/district station addresses and supplied local record",
+    "finding": "The OSM site corresponds to CAL FIRE/Placer County Station 11 at 25150 Foresthill Road. The same-name Overture candidate at 20540 Foresthill Road is Foresthill Fire Protection District Station 90, 7.6 km away. Overture already retains Cal Fire Foresthill Station at the OSM site, with a compatible fire category.",
+    "interpretation": "Two legitimate facilities share a broad place name. Exclude this from location-error and omission counts. The local site's multiple footprint intersections do not establish that the distant record is misplaced.",
+    "next_check": "No location-error claim. Preserve station numbers and operators in future entity matching.",
+    "sources": [
+      {
+        "title": "Placer County: Foresthill Station 11",
+        "url": "https://www.placer.ca.gov/7858/Foresthill-Station-11",
+        "access": "Official indexed address; direct county request returned 403"
+      },
+      {
+        "title": "Foresthill Fire Protection District: station locations",
+        "url": "https://www.foresthillfire.org/station-locations",
+        "access": "Official HTML archived; Station 90 at 20540 Foresthill Road"
+      }
+    ],
+    "region": "northern-ca",
+    "distance_km": 7.621227809738168,
+    "same_tract": true,
+    "origin_tract": "06061020200",
+    "destination_tract": "06061020200",
+    "rurality": "Rural",
+    "overture_primary_category": "fire_department",
+    "overture_confidence": 0.8618901371955872,
+    "root_source": "meta",
+    "osm_id": "way/1374824410",
+    "osm_timestamp": "2025-04-04T19:09:30Z",
+    "overture_id": "ae7e28c3-f245-4ed4-8c64-9bd2bf03e126",
+    "osm_tags": {
+      "amenity": "fire_station",
+      "name": "Foresthill Fire Station",
+      "operator": "CALFIRE"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -120.8069112,
+            39.0236348
+          ],
+          [
+            -120.806807,
+            39.0234981
+          ],
+          [
+            -120.8067185,
+            39.023461
+          ],
+          [
+            -120.8065079,
+            39.0234926
+          ],
+          [
+            -120.8063752,
+            39.0235118
+          ],
+          [
+            -120.8061983,
+            39.0235998
+          ],
+          [
+            -120.8060691,
+            39.0237346
+          ],
+          [
+            -120.8059629,
+            39.0238088
+          ],
+          [
+            -120.8057665,
+            39.023883
+          ],
+          [
+            -120.8056639,
+            39.023938
+          ],
+          [
+            -120.8056479,
+            39.0239944
+          ],
+          [
+            -120.8056656,
+            39.0240576
+          ],
+          [
+            -120.8057665,
+            39.0241044
+          ],
+          [
+            -120.8058915,
+            39.0241259
+          ],
+          [
+            -120.8069112,
+            39.0236348
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "ae7e28c3-f245-4ed4-8c64-9bd2bf03e126",
+      "names": {
+        "primary": "Foresthill Fire Station",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "20540 Foresthill Rd",
+          "locality": "Foresthill",
+          "postcode": "95631",
+          "region": "CA",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+15303672465"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "494115257368649",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.8618901371955872,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        },
+        {
+          "property": "/properties/operating_status",
+          "dataset": "Overture-signals",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "23234cb0-582c-465e-b557-e5bf7b38d808",
+          "update_time": "2026-07-13T15:52:52Z",
+          "confidence": 1.0,
+          "between": null,
+          "provider": "overture",
+          "resource": "operating_status_signal",
+          "version": "2026-07-13"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.8895879,
+          39.00135518
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 4,
+        "point_inside_building": true,
+        "nearest_road_m": 16.14691519110048,
+        "building_ids": [
+          "9702aaa1-9668-4b97-aeaa-4b1e1f46b3c7",
+          "4e82d333-6b9f-493d-8515-41d2039c4acf",
+          "0c1c9703-a81f-49a4-a6c8-06046f119ad6",
+          "da22609a-587e-4f8e-878a-9d08a1908b90"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 12.051270140450002,
+        "building_ids": []
+      }
+    },
+    "nearby_compatible_fire_places_350m": [
+      {
+        "id": "c7023542-29f3-4f73-a456-d3db8e8acd2b",
+        "name": "Cal Fire Foresthill Station",
+        "categories": {
+          "primary": "fire_department",
+          "alternate": null
+        },
+        "addresses": [
+          {
+            "freeform": "25150 Foresthill Rd",
+            "locality": "Foresthill",
+            "postcode": "95631-9720",
+            "region": "CA",
+            "country": "US"
+          }
+        ],
+        "confidence": 0.65,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "BrightQuery",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": "99787343",
+            "update_time": "2026-08-13T13:23:42.875Z",
+            "confidence": 0.65,
+            "between": null,
+            "provider": "brightquery",
+            "resource": "brightquery",
+            "version": "2026-08-10"
+          },
+          {
+            "property": "/properties/confidence",
+            "dataset": "Overture",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": null,
+            "update_time": "2026-08-14T19:46:07Z",
+            "confidence": null,
+            "between": null,
+            "provider": "overture",
+            "resource": "confidence_calculation",
+            "version": "2026-08-14"
+          }
+        ],
+        "distance_from_site_m": 0.0,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.8064707,
+            39.0236302
+          ]
+        }
+      }
+    ],
+    "compatible_fire_place_within_200m": true,
+    "nearby_all_places_350m_count": 1,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_foresthill.png"
+  },
+  {
+    "key": "mesa",
+    "name": "Mesa Fire & Medical Department",
+    "verdict": "distinct_facilities",
+    "label": "False pairing: Stations 211 and 209",
+    "confidence": "Official station map and supplied local record distinguish both stations",
+    "finding": "The OSM object has ref=211 and address 2130 North Horne. The exact-name Overture candidate lists 7035 East Southern Avenue, 14.2 km away. The city's station map identifies those addresses as Stations 211 and 209 respectively. Overture separately retains Mesa Fire Station 211 at the OSM site with a compatible fire category.",
+    "interpretation": "This newly surfaced Arizona case is a name-based false alarm. Neither the long separation nor the generic department name establishes misplacement; the local station is already present.",
+    "next_check": "Exclude from error and omission counts; keep as an additional entity-matching negative control.",
+    "sources": [
+      {
+        "title": "City of Mesa: existing fire stations map, revised 6 February 2023",
+        "url": "https://www.mesaaz.gov/files/assets/public/v/1/publicsafety/fire/stationmap.pdf",
+        "access": "Official indexed PDF lists Stations 209 and 211 and their distinct addresses"
+      }
+    ],
+    "region": "maricopa-az",
+    "distance_km": 14.207712811987218,
+    "same_tract": false,
+    "origin_tract": "04013420401",
+    "destination_tract": "04013422633",
+    "rurality": "Urban",
+    "overture_primary_category": "fire_department",
+    "overture_confidence": 0.9822546392679214,
+    "root_source": "meta",
+    "osm_id": "way/151284003",
+    "osm_timestamp": "2025-12-31T13:47:37Z",
+    "overture_id": "da16dfdd-e630-4a3d-a559-3a82fe8c4a2c",
+    "osm_tags": {
+      "addr:city": "Mesa",
+      "addr:housenumber": "2130",
+      "addr:postcode": "85203",
+      "addr:state": "AZ",
+      "addr:street": "North Horne",
+      "amenity": "fire_station",
+      "name": "Mesa Fire & Medical Department",
+      "operator": "City Of Mesa",
+      "ref": "211",
+      "source": "esri/USA_NAD_Addresses"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -111.8144428,
+            33.4534919
+          ],
+          [
+            -111.8137752,
+            33.4534907
+          ],
+          [
+            -111.8137762,
+            33.4530935
+          ],
+          [
+            -111.8144438,
+            33.4530947
+          ],
+          [
+            -111.8144428,
+            33.4534919
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "da16dfdd-e630-4a3d-a559-3a82fe8c4a2c",
+      "names": {
+        "primary": "Mesa Fire & Medical Department",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "7035 E Southern Ave",
+          "locality": "Mesa",
+          "postcode": "85209-2641",
+          "region": "AZ",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+14806442101"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "246506642154093",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.922846257686615,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.67931532,
+          33.39295011
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 2,
+        "point_inside_building": true,
+        "nearest_road_m": 10.275320871896133,
+        "building_ids": [
+          "61c36b09-7894-4c10-9578-c603179522be",
+          "40d3eb28-bd12-48c0-b83a-99ad6acdfc9d"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 43.50937792375045,
+        "building_ids": [
+          "96926b92-89aa-4cc9-bdb5-a7bc4277e793"
+        ]
+      }
+    },
+    "nearby_compatible_fire_places_350m": [
+      {
+        "id": "bd3f0b83-8ead-4ec7-8ddb-13584f977073",
+        "name": "Mesa Fire Station 211",
+        "categories": {
+          "primary": "fire_department",
+          "alternate": [
+            "fire_protection_service"
+          ]
+        },
+        "addresses": [
+          {
+            "freeform": "2130 N Horne",
+            "locality": "Mesa",
+            "postcode": "85203-1820",
+            "region": "AZ",
+            "country": "US"
+          }
+        ],
+        "confidence": 0.9650751352310181,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "meta",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": "167471413283781",
+            "update_time": "2026-08-10T00:00:00.000Z",
+            "confidence": 0.8603005409240723,
+            "between": null,
+            "provider": "meta",
+            "resource": "meta",
+            "version": "2026-08-10"
+          },
+          {
+            "property": "/properties/confidence",
+            "dataset": "Overture",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": null,
+            "update_time": "2026-08-14T19:46:07Z",
+            "confidence": null,
+            "between": null,
+            "provider": "overture",
+            "resource": "confidence_calculation",
+            "version": "2026-08-14"
+          }
+        ],
+        "distance_from_site_m": 0.3197304410176751,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.81417241,
+            33.45309134
+          ]
+        }
+      }
+    ],
+    "compatible_fire_place_within_200m": true,
+    "nearby_all_places_350m_count": 45,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_mesa.png"
+  },
+  {
+    "key": "eufaula",
+    "name": "Eufaula Fire Department",
+    "verdict": "unresolved",
+    "label": "Unresolved: old address, administration and new station",
+    "confidence": "Conflicting site roles and incomplete relocation chronology",
+    "finding": "The paired points are about 578 m apart and both use 64 Memorial Drive. The city's contact page labels that address City Hall. A September 2019 council agenda discusses the future of 64 Memorial Drive and Fire Station 1. The fire page identifies a new station project at 1712 JM Bailey Highway; the February 2025 agenda records functional bays/electrics, while April 2026 planning still includes interior work.",
+    "interpretation": "A distance discrepancy exists, but neither point is established as the operating station at the August 2026 cutoff. An administrative contact address, old station mapping and staged construction can all explain the records. Do not count it as a confirmed Overture error or an operating OSM station omission.",
+    "next_check": "Find a dated opening/relocation record and an authoritative address point for the operating station. Clarify whether both older points are stale.",
+    "sources": [
+      {
+        "title": "City of Eufaula: contact and City Hall address",
+        "url": "https://www.cityofeufaulaok.com/contact-us/",
+        "access": "Official page inspected"
+      },
+      {
+        "title": "City of Eufaula: fire and new station project",
+        "url": "https://www.cityofeufaulaok.com/departments/fire/",
+        "access": "Archived official page; last displayed update 5 December 2025"
+      },
+      {
+        "title": "Eufaula council agenda, 3 September 2019",
+        "url": "https://www.cityofeufaulaok.com/wp-content/uploads/2019/08/Agenda-Book-9.3.19.pdf",
+        "access": "Official indexed agenda"
+      },
+      {
+        "title": "Eufaula council agenda, 3 February 2025",
+        "url": "https://www.cityofeufaulaok.com/wp-content/uploads/2025/10/2.3.25_Agenda_Packet.pdf",
+        "access": "Official indexed construction progress"
+      },
+      {
+        "title": "Eufaula council agenda, 6 April 2026",
+        "url": "https://www.cityofeufaulaok.com/wp-content/uploads/2026/04/Agenda-Book-04.06.26.pdf",
+        "access": "Official indexed interior-work planning"
+      }
+    ],
+    "region": "eastern-ok",
+    "distance_km": 0.5775845152548585,
+    "same_tract": true,
+    "origin_tract": "40091780200",
+    "destination_tract": "40091780200",
+    "rurality": "Rural",
+    "overture_primary_category": "fire_department",
+    "overture_confidence": 0.9303605556488036,
+    "root_source": "meta",
+    "osm_id": "node/7117591984",
+    "osm_timestamp": "2023-07-24T14:25:31Z",
+    "overture_id": "78b04e0a-cfcd-4ddb-a01d-34405fee4c1a",
+    "osm_tags": {
+      "addr:city": "Eufaula",
+      "addr:housenumber": "64",
+      "addr:postcode": "74432",
+      "addr:state": "OK",
+      "addr:street": "Memorial Drive",
+      "amenity": "fire_station",
+      "name": "Eufaula Fire Department"
+    },
+    "osm_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -95.5835353,
+        35.2845401
+      ]
+    },
+    "overture_record": {
+      "id": "78b04e0a-cfcd-4ddb-a01d-34405fee4c1a",
+      "names": {
+        "primary": "Eufaula Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "64 Memorial Dr",
+          "locality": "Eufaula",
+          "postcode": "74432",
+          "region": "OK",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+19186892323"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "601799146550005",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.9303605556488037,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        },
+        {
+          "property": "/properties/operating_status",
+          "dataset": "Overture-signals",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "04564b97-e0d6-42e7-b7e5-563b52f5c159",
+          "update_time": "2026-08-10T22:54:24Z",
+          "confidence": 1.0,
+          "between": null,
+          "provider": "overture",
+          "resource": "operating_status_signal",
+          "version": "2026-08-10"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.58216762,
+          35.28960707
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 14.578170346430616,
+        "building_ids": [
+          "f63baed9-6645-4dba-bedd-ecf879838916"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 10.616696195952294,
+        "building_ids": [
+          "ee3fc9fc-490d-4699-a44f-de1e40bad8ee"
+        ]
+      }
+    },
+    "nearby_compatible_fire_places_350m": [],
+    "compatible_fire_place_within_200m": false,
+    "nearby_all_places_350m_count": 146,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_eufaula.png"
+  },
+  {
+    "key": "webbers-falls",
+    "name": "Webbers Falls Volunteer Fire Department",
+    "verdict": "unresolved",
+    "label": "Unresolved: current address versus older OSM geometry",
+    "confidence": "Official address established; address-to-building coordinate unresolved",
+    "finding": "The town lists the department at 220 North Highway 100, matching Overture's address. The two map sites are about 1.0 km apart. OSM's way dates to 2013 and has not been revised; its representative point is outside the two supplied footprints intersected by the polygon. Overture's endpoint lies inside a supplied building. No compatible fire place lies within 200 m of the OSM geometry.",
+    "interpretation": "The published address supports Overture's text, but is insufficient to validate its exact point. The unchanged old OSM geometry and site history also prevent treating OSM as ground truth. This is not a confirmed recurrence of Porum's error.",
+    "next_check": "Locate an authoritative address point or dated station site plan and resolve any rebuilding/relocation history. Do not propose moving the Overture point based on name similarity alone.",
+    "sources": [
+      {
+        "title": "Town of Webbers Falls: fire department address",
+        "url": "https://webbersfallsok.com/fire-dept/",
+        "access": "Official HTML archived"
+      },
+      {
+        "title": "Oklahoma CLEET: Webbers Falls training location, September 2026",
+        "url": "https://oklahoma.gov/cleet/training/cleet-training/2024-se-region-classroom-courses/webbers-falls-/tactical-patrol-officer.html",
+        "access": "Official indexed training location; post-snapshot context, not proof of August operating geometry"
+      }
+    ],
+    "region": "eastern-ok",
+    "distance_km": 1.0303108391076392,
+    "same_tract": true,
+    "origin_tract": "40101001501",
+    "destination_tract": "40101001501",
+    "rurality": "Rural",
+    "overture_primary_category": "fire_protection_service",
+    "overture_confidence": 0.9736079573631288,
+    "root_source": "meta",
+    "osm_id": "way/210884215",
+    "osm_timestamp": "2013-03-18T22:58:36Z",
+    "overture_id": "28e96c4a-fec6-4715-baef-e40708362cfd",
+    "osm_tags": {
+      "amenity": "fire_station",
+      "ele": "148",
+      "gnis:feature_id": "2656872",
+      "name": "Webbers Falls Volunteer Fire Department"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.1499538,
+            35.5038215
+          ],
+          [
+            -95.1497419,
+            35.5045224
+          ],
+          [
+            -95.1495798,
+            35.5049145
+          ],
+          [
+            -95.1494383,
+            35.5051591
+          ],
+          [
+            -95.1493564,
+            35.5051859
+          ],
+          [
+            -95.149309,
+            35.5053637
+          ],
+          [
+            -95.1491071,
+            35.5056924
+          ],
+          [
+            -95.1487389,
+            35.5062058
+          ],
+          [
+            -95.1484707,
+            35.5065245
+          ],
+          [
+            -95.1482856,
+            35.5066839
+          ],
+          [
+            -95.1483245,
+            35.5067967
+          ],
+          [
+            -95.1485968,
+            35.5067974
+          ],
+          [
+            -95.1485941,
+            35.506745
+          ],
+          [
+            -95.1488596,
+            35.5067516
+          ],
+          [
+            -95.148873,
+            35.5069503
+          ],
+          [
+            -95.1499565,
+            35.5069437
+          ],
+          [
+            -95.1499431,
+            35.5056818
+          ],
+          [
+            -95.1499538,
+            35.5038215
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "28e96c4a-fec6-4715-baef-e40708362cfd",
+      "names": {
+        "primary": "Webbers Falls Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "220 N Hwy 100",
+          "locality": "Webbers Falls",
+          "postcode": "74470",
+          "region": "OK",
+          "country": "US"
+        }
+      ],
+      "phones": null,
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1466988323607075",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.9736079573631287,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.139961,
+          35.51046
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 2,
+        "point_inside_building": false,
+        "nearest_road_m": 0.6642496650275611,
+        "building_ids": [
+          "a4366b19-819e-4940-b9d3-1620bdf63057",
+          "78bbbd8b-4a20-4427-baf5-efe7f42ca230"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 116.71744714409392,
+        "building_ids": [
+          "585adf52-4516-4b52-8089-d366c45ecb91"
+        ]
+      }
+    },
+    "nearby_compatible_fire_places_350m": [],
+    "compatible_fire_place_within_200m": false,
+    "nearby_all_places_350m_count": 2,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_webbers-falls.png"
+  },
+  {
+    "key": "washington-county",
+    "name": "Washington County Fire Department",
+    "verdict": "unresolved",
+    "label": "Unresolved: likely move or agency-contact difference",
+    "confidence": "Both addresses are documented at different dates",
+    "finding": "OSM lists 3931 Southeast Adams Road. The county's older wildfire plan documents that address for the civil-defense fire department. Overture instead uses 1205 Southeast Bison, 2.9 km away, which matches the emergency-management agency's current official contact address. Bartlesville's May 2023 council packet records construction of a new county emergency-management complex on Bison Road.",
+    "interpretation": "A credible relocation or shared agency-contact explanation exists. The older Adams address cannot invalidate the current Bison address, and neither the exact move date nor continued operation of the old fire site has been established. Overture's category is central_government_office, rather than the compatible fire_department category.",
+    "next_check": "Establish which building housed operational fire apparatus on 1 August 2026 and whether the record intentionally represents administration. Do not count this as a confirmed location error.",
+    "sources": [
+      {
+        "title": "Washington County Emergency Management: fire department",
+        "url": "https://www.wcema-ok.gov/wcfd",
+        "access": "Official HTML archived; current Bison contact address"
+      },
+      {
+        "title": "Washington County Community Wildfire Protection Plan, page 7",
+        "url": "https://drive.google.com/file/d/1WhswMNFus-0fagbeWvByXOwbOxuBGbcd/view",
+        "access": "Public county-linked PDF fetched through Google Drive; older Adams address"
+      },
+      {
+        "title": "City of Bartlesville council packet, 1 May 2023",
+        "url": "https://www.cityofbartlesville.org/wp-content/uploads/2023/04/City-Council-Packet-May-1-2023.pdf",
+        "access": "Official indexed county EOC development record"
+      }
+    ],
+    "region": "eastern-ok",
+    "distance_km": 2.899799286459865,
+    "same_tract": false,
+    "origin_tract": "40147000500",
+    "destination_tract": "40147000601",
+    "rurality": "Urban",
+    "overture_primary_category": "central_government_office",
+    "overture_confidence": 0.9817737936973572,
+    "root_source": "meta",
+    "osm_id": "way/1246184931",
+    "osm_timestamp": "2024-02-04T23:14:46Z",
+    "overture_id": "830d1b68-0fb3-4ca1-b6be-07518019f293",
+    "osm_tags": {
+      "addr:city": "Bartlesville",
+      "addr:housenumber": "3931",
+      "addr:postcode": "74006",
+      "addr:state": "OK",
+      "addr:street": "Southeast Adams Road",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Washington County Fire Department",
+      "operator": "Kary Cox"
+    },
+    "osm_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.9314221,
+            36.7433814
+          ],
+          [
+            -95.9314201,
+            36.7431753
+          ],
+          [
+            -95.931106,
+            36.7431761
+          ],
+          [
+            -95.931107,
+            36.7433805
+          ],
+          [
+            -95.9314221,
+            36.7433814
+          ]
+        ]
+      ]
+    },
+    "overture_record": {
+      "id": "830d1b68-0fb3-4ca1-b6be-07518019f293",
+      "names": {
+        "primary": "Washington County Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "addresses": [
+        {
+          "freeform": "1205 SE Bison",
+          "locality": "Bartlesville",
+          "postcode": "74006",
+          "region": "OK",
+          "country": "US"
+        }
+      ],
+      "phones": [
+        "+19183312710"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "491629707884044",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.9817737936973572,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.89989542,
+          36.73644225
+        ]
+      }
+    },
+    "physical_checks": {
+      "osm": {
+        "overlapping_buildings": 1,
+        "point_inside_building": true,
+        "nearest_road_m": 66.96013550474589,
+        "building_ids": [
+          "775656e2-2f2a-4c8f-bc01-8f377d82349b"
+        ]
+      },
+      "overture": {
+        "overlapping_buildings": 0,
+        "point_inside_building": false,
+        "nearest_road_m": 54.31325008357308,
+        "building_ids": []
+      }
+    },
+    "nearby_compatible_fire_places_350m": [
+      {
+        "id": "55980555-d88a-4469-af73-bcc0610d6a33",
+        "name": "Washington County Emergency Management",
+        "categories": {
+          "primary": "fire_department",
+          "alternate": null
+        },
+        "addresses": [
+          {
+            "freeform": "3931 SE Adams Rd",
+            "locality": "Bartlesville",
+            "postcode": "74006-8408",
+            "region": "OK",
+            "country": "US"
+          }
+        ],
+        "confidence": 0.8683938980102539,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "meta",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": "346014625428128",
+            "update_time": "2026-08-10T00:00:00.000Z",
+            "confidence": 0.8683938980102539,
+            "between": null,
+            "provider": "meta",
+            "resource": "meta",
+            "version": "2026-08-10"
+          },
+          {
+            "property": "/properties/confidence",
+            "dataset": "Overture",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": null,
+            "update_time": "2026-08-14T19:46:07Z",
+            "confidence": null,
+            "between": null,
+            "provider": "overture",
+            "resource": "confidence_calculation",
+            "version": "2026-08-14"
+          },
+          {
+            "property": "/properties/operating_status",
+            "dataset": "Overture-signals",
+            "license": "CDLA-Permissive-2.0",
+            "record_id": "6ee68d08-b355-437b-a4e6-f6ac941dc541",
+            "update_time": "2026-08-10T22:54:24Z",
+            "confidence": 1.0,
+            "between": null,
+            "provider": "overture",
+            "resource": "operating_status_signal",
+            "version": "2026-08-10"
+          }
+        ],
+        "distance_from_site_m": 0.0,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -95.93141114702988,
+            36.7433085411677
+          ]
+        }
+      }
+    ],
+    "compatible_fire_place_within_200m": true,
+    "nearby_all_places_350m_count": 66,
+    "interpretation_date": "2026-10-24",
+    "osm_snapshot": "2026-08-01T00:00:00Z",
+    "overture_release": "2026-08-19.0",
+    "figure": "case_washington-county.png"
+  }
+]

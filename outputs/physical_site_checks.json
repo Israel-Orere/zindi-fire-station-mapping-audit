@@ -1,0 +1,162 @@
+{
+  "porum": {
+    "intersecting_overture_buildings": 1,
+    "overture_buildings": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "b895ff27-772b-4c8d-8906-3ef820d42290",
+          "names": {
+            "primary": "Porum Volunteer Fire Department",
+            "common": null,
+            "rules": null
+          },
+          "sources": [
+            {
+              "property": "",
+              "dataset": "OpenStreetMap",
+              "license": "ODbL-1.0",
+              "record_id": "w524779554@1",
+              "update_time": "2017-09-14T22:34:56.000Z",
+              "confidence": null,
+              "between": null,
+              "provider": "osm",
+              "resource": "planet",
+              "version": "2026-08-02T00:00:00.000Z"
+            },
+            {
+              "property": "/properties/height",
+              "dataset": "Microsoft ML Buildings",
+              "license": "ODbL-1.0",
+              "record_id": null,
+              "update_time": "2021-04-01T00:00:00.000Z",
+              "confidence": null,
+              "between": null,
+              "provider": "microsoft",
+              "resource": "ml_buildings",
+              "version": "2025-02-25"
+            }
+          ],
+          "class": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -95.2647391,
+                35.3590295
+              ],
+              [
+                -95.2647498,
+                35.3593434
+              ],
+              [
+                -95.2648992,
+                35.35934
+              ],
+              [
+                -95.2648884,
+                35.3590261
+              ],
+              [
+                -95.2647391,
+                35.3590295
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "nearest_road_m": 31.39726617328782,
+    "point_inside_overture_building": true
+  },
+  "urban_control": {
+    "intersecting_overture_buildings": 1,
+    "overture_buildings": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "c06d56b4-f154-4c08-a5e1-b594443e45a3",
+          "names": {
+            "primary": "Central Fire Station",
+            "common": null,
+            "rules": null
+          },
+          "sources": [
+            {
+              "property": "",
+              "dataset": "OpenStreetMap",
+              "license": "ODbL-1.0",
+              "record_id": "w256869506@2",
+              "update_time": "2024-09-18T05:01:06.000Z",
+              "confidence": null,
+              "between": null,
+              "provider": "osm",
+              "resource": "planet",
+              "version": "2026-08-02T00:00:00.000Z"
+            },
+            {
+              "property": "/properties/height",
+              "dataset": "Microsoft ML Buildings",
+              "license": "ODbL-1.0",
+              "record_id": null,
+              "update_time": "2021-04-01T00:00:00.000Z",
+              "confidence": null,
+              "between": null,
+              "provider": "microsoft",
+              "resource": "ml_buildings",
+              "version": "2025-02-25"
+            }
+          ],
+          "class": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -95.9702279,
+                35.625296
+              ],
+              [
+                -95.9702317,
+                35.6249733
+              ],
+              [
+                -95.9699389,
+                35.624971
+              ],
+              [
+                -95.9699383,
+                35.6250209
+              ],
+              [
+                -95.9696409,
+                35.6250186
+              ],
+              [
+                -95.9696385,
+                35.6252198
+              ],
+              [
+                -95.9700315,
+                35.6252229
+              ],
+              [
+                -95.9700307,
+                35.6252945
+              ],
+              [
+                -95.9702279,
+                35.625296
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "nearest_road_m": 22.8533867678043,
+    "point_inside_overture_building": true
+  }
+}

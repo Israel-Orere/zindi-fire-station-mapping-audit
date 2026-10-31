@@ -1,0 +1,21 @@
+region,ur_class,exposure_group,sites,matched,percent
+eastern-ok,Rural,Middle half,41,24,58.53658536585366
+eastern-ok,Rural,Highest exposure quarter,70,35,50.0
+eastern-ok,Urban,Lowest exposure quarter,48,39,81.25
+eastern-ok,Urban,Middle half,88,63,71.5909090909091
+eastern-ok,Urban,Highest exposure quarter,7,5,71.42857142857143
+eastern-wa,Rural,Middle half,84,28,33.333333333333336
+eastern-wa,Rural,Highest exposure quarter,102,44,43.13725490196079
+eastern-wa,Urban,Lowest exposure quarter,26,18,69.23076923076923
+eastern-wa,Urban,Middle half,94,55,58.51063829787234
+eastern-wa,Urban,Highest exposure quarter,14,4,28.571428571428573
+eastern-wa,,Middle half,1,1,100.0
+maricopa-az,Rural,Highest exposure quarter,105,69,65.71428571428571
+maricopa-az,Urban,Lowest exposure quarter,52,46,88.46153846153847
+maricopa-az,Urban,Middle half,190,157,82.63157894736842
+maricopa-az,Urban,Highest exposure quarter,94,61,64.8936170212766
+northern-ca,Rural,Middle half,34,21,61.76470588235294
+northern-ca,Rural,Highest exposure quarter,180,64,35.55555555555556
+northern-ca,Urban,Lowest exposure quarter,32,29,90.625
+northern-ca,Urban,Middle half,92,69,75.0
+northern-ca,Urban,Highest exposure quarter,18,12,66.66666666666667

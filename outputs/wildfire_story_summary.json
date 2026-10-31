@@ -1,0 +1,24 @@
+{
+  "added": "2026-10-27",
+  "purpose": "Plain-language descriptive deep dive; no new inferential test or model fitting",
+  "sites": 1372,
+  "groups": 12,
+  "group_definition": "Existing wildfire_rank from all supplied tracts within region: <=0.25, >0.25 and <=0.75, >0.75. Each station inherits its tract rank; groups are not equal-sized samples of stations.",
+  "exposure_definition": "Tract landscape Exposure Type average, related to proximity to burnable vegetation; not annual burn probability, station-site danger or a current forecast.",
+  "all_lowest_quarter_sites_urban": true,
+  "rural_region_adjusted_gap_pp": 23.109361807704783,
+  "rural_community_adjusted_gap_pp": 4.785515225740117,
+  "rural_community_adjusted_coefficient_interval_pp": [
+    -13.128435385403774,
+    3.55740493392354
+  ],
+  "wildfire_25th_to_75th_rank_adjusted_gap_pp": 14.42659532212202,
+  "wildfire_adjusted_gap_interval_pp": [
+    8.645430992471775,
+    20.20775965177226
+  ],
+  "model_sites": 1358,
+  "county_clusters": 120,
+  "interpretation": "Expected difference in local-match share from a statistical model, not observed lost stations, an operating-station omission rate, or a causal wildfire effect.",
+  "important_overlap_limit": "Lowest exposure quarter contains no rural sites in this sample. Adjustment relies on a model and does not create directly comparable rural/urban observations at every exposure level."
+}

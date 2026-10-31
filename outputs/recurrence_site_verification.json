@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Eufaula Fire Department",
+    "distance_km": 0.5775845152548585,
+    "same_tract": true,
+    "GEOID": "40091780200",
+    "ur_class": "Rural",
+    "OSM_geometry_overlapping_overture_footprints": 1,
+    "OSM_point_inside_overture_footprint": true,
+    "nearest_overture_road_m": 14.578170346430616,
+    "building_ids": [
+      "f63baed9-6645-4dba-bedd-ecf879838916"
+    ]
+  },
+  {
+    "name": "Webbers Falls Volunteer Fire Department",
+    "distance_km": 1.0303108391076392,
+    "same_tract": true,
+    "GEOID": "40101001501",
+    "ur_class": "Rural",
+    "OSM_geometry_overlapping_overture_footprints": 2,
+    "OSM_point_inside_overture_footprint": false,
+    "nearest_overture_road_m": 0.6642496650275611,
+    "building_ids": [
+      "a4366b19-819e-4940-b9d3-1620bdf63057",
+      "78bbbd8b-4a20-4427-baf5-efe7f42ca230"
+    ]
+  },
+  {
+    "name": "Broken Arrow Fire Station #3",
+    "distance_km": 3.885881017648205,
+    "same_tract": false,
+    "GEOID": "40143007535",
+    "ur_class": "Urban",
+    "OSM_geometry_overlapping_overture_footprints": 1,
+    "OSM_point_inside_overture_footprint": true,
+    "nearest_overture_road_m": 28.274898791279558,
+    "building_ids": [
+      "99ff8799-b9fc-41d6-bea1-54e4453be4e7"
+    ]
+  }
+]

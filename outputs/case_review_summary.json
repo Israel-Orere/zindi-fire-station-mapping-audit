@@ -1,0 +1,29 @@
+{
+  "reviewed_cases": 11,
+  "original_cases": 10,
+  "additional_arizona_cases": 1,
+  "verdict_counts": {
+    "supported_location_error": 3,
+    "distinct_facilities": 5,
+    "unresolved": 3
+  },
+  "unique_name_pairs_screened": 252,
+  "distance_threshold_counts": {
+    "100": 18,
+    "200": 13,
+    "500": 11,
+    "1000": 9,
+    "5000": 5,
+    "10000": 3
+  },
+  "review_rule": "Every unique-name pair above 500 m in the four completed regions was adjudicated. Seven additional 100\u2013500 m pairs are listed as threshold diagnostics, not verified errors.",
+  "completed_regions": [
+    "eastern-ok",
+    "eastern-wa",
+    "maricopa-az",
+    "northern-ca"
+  ],
+  "fire_sites": 1372,
+  "uncompleted_region": "south-central-tx",
+  "interpretation": "Selected cases demonstrate recurrence, not an error prevalence or causal rurality effect."
+}

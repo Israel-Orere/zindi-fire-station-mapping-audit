@@ -1,0 +1,375 @@
+[
+  {
+    "id": "broken_arrow_current",
+    "url": "https://www.brokenarrowok.gov/Home/Components/FacilityDirectory/FacilityDirectory/24/1154",
+    "status": "failed",
+    "error": "<HTTPError 403: 'Forbidden'>",
+    "case_keys": [
+      "broken-arrow"
+    ],
+    "title": "City of Broken Arrow: Station 3 facility directory",
+    "evidence_access": "Official search-index text; direct request returned 403",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "broken_arrow_history",
+    "url": "https://www.brokenarrowok.gov/Home/Components/News/News/1861/1317?arch=1&npage=20&selectview=0",
+    "status": "failed",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "eufaula_fire",
+    "url": "https://www.cityofeufaulaok.com/departments/fire/",
+    "retrieved_utc": "2026-10-24T13:46:52Z",
+    "file": "eufaula_fire.html",
+    "sha256": "19a0191a9a36521d0214141743574bd885bbc245578fc8ab30eb069b9fa79e37",
+    "bytes": 79340,
+    "status": "saved",
+    "case_keys": [
+      "eufaula"
+    ],
+    "title": "City of Eufaula: fire and new station project",
+    "evidence_access": "Archived official page; last displayed update 5 December 2025",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "webbers_fire",
+    "url": "https://webbersfallsok.com/fire-dept/",
+    "retrieved_utc": "2026-10-24T13:46:52Z",
+    "file": "webbers_fire.html",
+    "sha256": "6e79cb1666f001da5a5c8ab196a3e221ff7ca853cbb7122b1cba450f57e69a49",
+    "bytes": 75277,
+    "status": "saved",
+    "case_keys": [
+      "webbers-falls"
+    ],
+    "title": "Town of Webbers Falls: fire department address",
+    "evidence_access": "Official HTML archived",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "washington_fire",
+    "url": "https://www.wcema-ok.gov/wcfd",
+    "retrieved_utc": "2026-10-24T13:46:51Z",
+    "file": "washington_fire.html",
+    "sha256": "7f2217d87444229d14786a9b1b78f1d5cb005af8dbb77678b55981a04ba6945f",
+    "bytes": 562195,
+    "status": "saved",
+    "case_keys": [
+      "washington-county"
+    ],
+    "title": "Washington County Emergency Management: fire department",
+    "evidence_access": "Official HTML archived; current Bison contact address",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "yakima_home",
+    "url": "https://www.ycfd5.org/",
+    "retrieved_utc": "2026-10-24T13:46:51Z",
+    "file": "yakima_home.html",
+    "sha256": "e21964d288901ce5fcf8e9fa06a069e45293b9903505632e9e9209eb0d8f25b0",
+    "bytes": 262189,
+    "status": "saved",
+    "case_keys": [
+      "yakima"
+    ],
+    "title": "Yakima County Fire District 5: district office and station network",
+    "evidence_access": "Official district HTML archived",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "westport_contact",
+    "url": "https://www.westportvfd.org/contact-wvfd",
+    "retrieved_utc": "2026-10-24T13:46:52Z",
+    "file": "westport_contact.html",
+    "sha256": "f79b68de7005957040322a85f40a7d525ec6596c19ea400f452018906c48c252",
+    "bytes": 9340,
+    "status": "saved",
+    "case_keys": [
+      "westport"
+    ],
+    "title": "Westport Volunteer Fire Department: contact and physical address",
+    "evidence_access": "Official department page archived",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "foresthill_stations",
+    "url": "https://www.foresthillfire.org/station-locations",
+    "retrieved_utc": "2026-10-24T13:46:53Z",
+    "file": "foresthill_stations.html",
+    "sha256": "c8389c2e0d91583db53f131931cc303f664791664627fb82639ac75e4f4041fe",
+    "bytes": 111816,
+    "status": "saved",
+    "case_keys": [
+      "foresthill"
+    ],
+    "title": "Foresthill Fire Protection District: station locations",
+    "evidence_access": "Official HTML archived; Station 90 at 20540 Foresthill Road",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "shasta_battalion3",
+    "url": "https://www.shastacounty.gov/fire/page/battalion-3",
+    "status": "failed",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "redding_admin",
+    "url": "https://files.cityofredding.gov/government/departments/fire_department/contact_us.php",
+    "retrieved_utc": "2026-10-24T13:46:54Z",
+    "file": "redding_admin.html",
+    "sha256": "df8f26a9decd8dbd3213ceaea4f589d76b176a13ebf3d8f54425decbc865a887",
+    "bytes": 101186,
+    "status": "saved",
+    "case_keys": [
+      "redding"
+    ],
+    "title": "City of Redding: fire department contact",
+    "evidence_access": "Official HTML archived; administrative address",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "muskogee_departments",
+    "url": "https://muskogee.okcounties.org/offices/fire-departments",
+    "retrieved_utc": "2026-10-24T13:46:54Z",
+    "file": "muskogee_departments.html",
+    "sha256": "a432da2a378e752cb47e8a306972625eb7ea4edc599664fffaf8fb6e3e89e4ba",
+    "bytes": 55404,
+    "status": "saved",
+    "case_keys": [
+      "porum"
+    ],
+    "title": "Muskogee County: fire departments",
+    "evidence_access": "Archived official HTML",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "yakima_harrah",
+    "url": "https://www.ycfd5.org/station3harrah",
+    "status": "saved",
+    "file": "yakima_harrah.html",
+    "sha256": "4116c1be6c0063e8ba3270be3bfc5041af94a80b28aa1bf6ed2877588ea1be5a",
+    "bytes": 288579,
+    "retrieved_utc": "2026-10-24T14:13:34Z",
+    "case_keys": [
+      "yakima"
+    ],
+    "title": "Yakima County Fire District 5: Station 3, Harrah",
+    "evidence_access": "Official branch address verified",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "shingletown_about",
+    "url": "https://www.svfd20.org/about-co.-20.html",
+    "status": "saved",
+    "file": "shingletown_about.html",
+    "sha256": "1d7aa49608b773338b5cce1ae4ecfbc53f43688fc0afb77175b58d94b4f18feb",
+    "bytes": 51551,
+    "retrieved_utc": "2026-10-24T14:13:34Z",
+    "case_keys": [
+      "shingletown"
+    ],
+    "title": "Shingletown Volunteer Fire Department: three-station description",
+    "evidence_access": "Official department page explicitly identifies the three branches",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "shingletown_home",
+    "url": "https://www.svfd20.org/",
+    "status": "saved",
+    "file": "shingletown_home.html",
+    "sha256": "4f0784c3523b44ad4fe5ef00142a26fd662ed9f7572ca3bb697f5f8b65710acb",
+    "bytes": 62058,
+    "retrieved_utc": "2026-10-24T14:13:34Z",
+    "case_keys": [
+      "shingletown"
+    ],
+    "title": "Shingletown Volunteer Fire Department: main contact address",
+    "evidence_access": "Official department page",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "eufaula_contact",
+    "url": "https://www.cityofeufaulaok.com/contact-us/",
+    "status": "saved",
+    "file": "eufaula_contact.html",
+    "sha256": "6af1c57665363f31351b44aeb69cf74883160dc8d4c82aaac82af238ad698a17",
+    "bytes": 75418,
+    "retrieved_utc": "2026-10-24T14:13:38Z",
+    "case_keys": [
+      "eufaula"
+    ],
+    "title": "City of Eufaula: contact and City Hall address",
+    "evidence_access": "Official page inspected",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "mesa_stationmap",
+    "url": "https://www.mesaaz.gov/files/assets/public/v/1/publicsafety/fire/stationmap.pdf",
+    "status": "failed",
+    "error": "<HTTPError 403: 'Forbidden'>",
+    "case_keys": [
+      "mesa"
+    ],
+    "title": "City of Mesa: existing fire stations map, revised 6 February 2023",
+    "evidence_access": "Official indexed PDF lists Stations 209 and 211 and their distinct addresses",
+    "review_date": "2026-10-24"
+  },
+  {
+    "id": "mendocino_org",
+    "url": "https://www.arcgis.com/sharing/rest/portals/vVsGmpWOxUEQGPFl?f=json",
+    "status": "saved",
+    "file": "mendocino_org.json",
+    "sha256": "7a77069fba6adc3e423bdbe11b222d86ebb706f6fa706dd4b1adae138696b6e5",
+    "bytes": 14199,
+    "retrieved_utc": "2026-10-24T14:13:34Z"
+  },
+  {
+    "url": "https://muskogee.okcounties.org/file/item_8_-_contract_porum_vfd_fire_master_fire_equipment_2427.pdf",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "porum"
+    ],
+    "title": "Muskogee County: Porum apparatus contract, page 2, signed 21 October 2024",
+    "evidence_access": "Downloaded and visually read pages 1\u20132; scanned PDF has no extractable text",
+    "review_date": "2026-10-24",
+    "file": "porum_official_contract.pdf",
+    "sha256": "c76ba37b59b680d73405a52dd57cc570bc0a6c675bc8df974ff4bf0819d40d01",
+    "bytes": 32755717,
+    "visual_verification": "Pages 1\u20132 rendered and read; page 2 gives 205 North 2nd Street, Porum, Oklahoma 74455 and signed date 21 October 2024. Scanned PDF has no extractable text. Full 71-page vendor specification is not redistributed in the bundle."
+  },
+  {
+    "url": "https://fliphtml5.com/jfvjw/lvcx/2021_Broken_Arrow_Fire_Department_Annual_Report/",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "broken-arrow"
+    ],
+    "title": "City-authored 2021 Fire Department Annual Report, pages 4 and 7",
+    "evidence_access": "Indexed city-authored publication; identifies address and August 2021 opening",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.brokenarrowok.gov/i-want-to/advanced-components/list-detail-pages/news-list/-utm_medium-email/-utm_source-govdelivery/-arch-1/-npage-23",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "broken-arrow"
+    ],
+    "title": "City of Broken Arrow news archive: 9 August 2021 station opening",
+    "evidence_access": "Official indexed news archive describes replacement of South Elm station",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.arcgis.com/home/item.html?id=8bb2807c2bbe4df58d18910ab3ec1acd",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "westport"
+    ],
+    "title": "Mendocino Planning and Building Services: Address Points metadata",
+    "evidence_access": "Owner MendoPBS.GIS; item modified 21 May 2026; working-layer warning retained",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://services8.arcgis.com/vVsGmpWOxUEQGPFl/arcgis/rest/services/Address_Points_033021/FeatureServer/0/query?where=SITUS_NUMB%3D%2737551%27&outFields=SITUS_ALL%2CCOMMUNITY&outSR=4326&f=pjson",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "westport"
+    ],
+    "title": "County address service: single-address verification query",
+    "evidence_access": "Single public address record queried; no countywide reference dataset created",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://files.cityofredding.gov/Document%20Center/Departments/Fire/FINAL_Redding_CWPP.pdf",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "redding"
+    ],
+    "title": "City of Redding: Community Wildfire Protection Plan",
+    "evidence_access": "Official indexed plan lists Station 2 at 3491 Placer Street",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.placer.ca.gov/7858/Foresthill-Station-11",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "foresthill"
+    ],
+    "title": "Placer County: Foresthill Station 11",
+    "evidence_access": "Official indexed address; direct county request returned 403",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.cityofeufaulaok.com/wp-content/uploads/2019/08/Agenda-Book-9.3.19.pdf",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "eufaula"
+    ],
+    "title": "Eufaula council agenda, 3 September 2019",
+    "evidence_access": "Official indexed agenda",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.cityofeufaulaok.com/wp-content/uploads/2025/10/2.3.25_Agenda_Packet.pdf",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "eufaula"
+    ],
+    "title": "Eufaula council agenda, 3 February 2025",
+    "evidence_access": "Official indexed construction progress",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.cityofeufaulaok.com/wp-content/uploads/2026/04/Agenda-Book-04.06.26.pdf",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "eufaula"
+    ],
+    "title": "Eufaula council agenda, 6 April 2026",
+    "evidence_access": "Official indexed interior-work planning",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://oklahoma.gov/cleet/training/cleet-training/2024-se-region-classroom-courses/webbers-falls-/tactical-patrol-officer.html",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "webbers-falls"
+    ],
+    "title": "Oklahoma CLEET: Webbers Falls training location, September 2026",
+    "evidence_access": "Official indexed training location; post-snapshot context, not proof of August operating geometry",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://drive.google.com/file/d/1WhswMNFus-0fagbeWvByXOwbOxuBGbcd/view",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "washington-county"
+    ],
+    "title": "Washington County Community Wildfire Protection Plan, page 7",
+    "evidence_access": "Public county-linked PDF fetched through Google Drive; older Adams address",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.cityofbartlesville.org/wp-content/uploads/2023/04/City-Council-Packet-May-1-2023.pdf",
+    "status": "reviewed_as_described",
+    "case_keys": [
+      "washington-county"
+    ],
+    "title": "City of Bartlesville council packet, 1 May 2023",
+    "evidence_access": "Official indexed county EOC development record",
+    "review_date": "2026-10-24"
+  },
+  {
+    "url": "https://www.westportvfd.org/about",
+    "title": "Westport Volunteer Fire Department: department size and geographic responsibility",
+    "review_date": "2026-10-24",
+    "evidence_access": "Official department page read in web retrieval; describes 14 volunteers and 190 square miles as current public context, not independently verified August staffing",
+    "story_use": "Concrete organisational context; no interviews or individual testimony claimed"
+  },
+  {
+    "url": "https://oklahoma.gov/oem/emergencies-and-disasters/2007/01-12-winter-weather/situation-update-9.html",
+    "title": "Oklahoma Emergency Management: 14 January 2007 situation update",
+    "review_date": "2026-10-24",
+    "evidence_access": "Official report lists Porum among communities with outages; event predates the studied snapshot",
+    "story_use": "Historical disaster context only; not evidence of Overture use, mapping harm or a 2026 outage"
+  }
+]

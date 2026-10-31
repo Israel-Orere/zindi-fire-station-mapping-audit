@@ -1,0 +1,120 @@
+{
+  "regional_checks": {
+    "eastern-ok": {
+      "rows": 2136,
+      "unique_osm_ids": true,
+      "valid_geoids": true,
+      "all_in_supplied_samples": true,
+      "historical_timestamps_valid": true,
+      "radius_monotonicity": true,
+      "group_count_reconciles": true
+    },
+    "eastern-wa": {
+      "rows": 321,
+      "unique_osm_ids": true,
+      "valid_geoids": true,
+      "all_in_supplied_samples": true,
+      "historical_timestamps_valid": true,
+      "radius_monotonicity": true,
+      "group_count_reconciles": true
+    },
+    "maricopa-az": {
+      "rows": 441,
+      "unique_osm_ids": true,
+      "valid_geoids": true,
+      "all_in_supplied_samples": true,
+      "historical_timestamps_valid": true,
+      "radius_monotonicity": true,
+      "group_count_reconciles": true
+    },
+    "northern-ca": {
+      "rows": 356,
+      "unique_osm_ids": true,
+      "valid_geoids": true,
+      "all_in_supplied_samples": true,
+      "historical_timestamps_valid": true,
+      "radius_monotonicity": true,
+      "group_count_reconciles": true
+    }
+  },
+  "porum_building_overlap": true,
+  "porum_coordinate_discrepancy_44_45km": true,
+  "package_regions": [
+    "eastern-ok",
+    "eastern-wa",
+    "maricopa-az",
+    "northern-ca"
+  ],
+  "python": "3.12.14",
+  "interpretation": "Checks validate computational integrity, not OSM operational status or causal effects.",
+  "exact_name_review": {
+    "pairs": 252,
+    "over_500m_candidates": 11,
+    "over_500m_same_tract_candidates": 5,
+    "interpretation": "Unique-name coordinate differences are review candidates; station/department or headquarters distinctions can explain some."
+  },
+  "story_chart": {
+    "regional_groups": 8,
+    "agrees_with_existing_regional_results": true,
+    "denominator": "All Rural/Urban fire sites; not one-site tracts",
+    "unknown_rurality_excluded": 1
+  },
+  "wildfire_story": {
+    "groups": 12,
+    "all_sites_reconcile": true,
+    "rural_urban_composition_disclosed": true,
+    "uses_existing_adjusted_estimate": true,
+    "chart": "Observed shares, not adjusted predictions",
+    "added_descriptively": "2026-10-27"
+  },
+  "case_adjudication": {
+    "reviewed": 11,
+    "supported_location_errors": 3,
+    "distinct_facilities": 5,
+    "unresolved": 3,
+    "all_over_500m_candidates_reviewed": true,
+    "supported_sites_buildings_retained": true,
+    "local_record_false_alarms_verified": true,
+    "westport_county_address_within_one_metre": true
+  },
+  "combined_fire_sites": 1372,
+  "reports": {
+    "bias_discovery_visual_report.html": {
+      "embedded_figures": 4,
+      "local_links_resolve": true,
+      "case_cards": 0
+    },
+    "comprehensive_case_audit.html": {
+      "embedded_figures": 11,
+      "local_links_resolve": true,
+      "case_cards": 11
+    }
+  },
+  "interactive_browser_check": "Blocked: local file protocol is not permitted by browser security policy. Saved HTML structure, image embeds, local links, map images and calculations were checked directly. No browser workaround attempted.",
+  "equity_followup": {
+    "fire_sites": 1372,
+    "tracts_with_fire_sites": 1034,
+    "all_supplied_tracts": 3791,
+    "county_clusters": 120,
+    "site_and_tract_joins_one_to_many_valid": true,
+    "all_planned_subgroups_reconcile_to_1372": true,
+    "radius_monotonicity": true,
+    "matching_calipers_and_unique_controls_valid": true,
+    "main_pairs": 166,
+    "strict_pairs_010": 97,
+    "strict_pairs_005": 62,
+    "independent_ols_implementation_agrees": true,
+    "single_site_population_and_count_totals_verified": true,
+    "report_figures_embedded": 3,
+    "local_links_resolve": true,
+    "figures_visually_reviewed": true,
+    "interpretation": "Computational checks do not establish real operating station status, causal bias, personal identity or observed harm.",
+    "source_urls": [
+      "https://zindi.world/competitions/bias-bounty-mapping-equity-challenge",
+      "https://source.coop/humane-intelligence/bias-bounty-mapping-equity-challenge/README.md",
+      "https://www.atsdr.cdc.gov/place-health/php/svi/svi-frequently-asked-questions-faqs.html",
+      "https://www.census.gov/programs-surveys/geography/about/glossary/aian-definitions.html",
+      "https://www.arcgis.com/sharing/rest/content/items/5fc79866a77443a2828e049298d828ba/info/metadata/metadata.xml?format=default&output=html"
+    ]
+  }
+}

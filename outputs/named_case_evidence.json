@@ -1,0 +1,372 @@
+{
+  "porum": {
+    "overture": {
+      "id": "b8dbd5fb-9deb-4e96-92ee-918971bdbeb5",
+      "categories": {
+        "primary": "fire_protection_service",
+        "alternate": [
+          "fire_department",
+          "ambulance_and_ems_services"
+        ]
+      },
+      "confidence": 0.8428283929824829,
+      "websites": null,
+      "emails": null,
+      "socials": [
+        "https://www.facebook.com/1469101023404083"
+      ],
+      "phones": [
+        "+19184842517"
+      ],
+      "brand": {
+        "wikidata": null,
+        "names": {
+          "primary": null,
+          "common": null,
+          "rules": null
+        }
+      },
+      "addresses": [
+        {
+          "freeform": "205 N 2nd St",
+          "locality": "Muskogee",
+          "postcode": "74401-6635",
+          "region": "OK",
+          "country": "US"
+        }
+      ],
+      "names": {
+        "primary": "Porum Volunteer Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1469101023404083",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.8428283929824829,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "operating_status": null,
+      "basic_category": "home_service",
+      "taxonomy": {
+        "primary": "fire_protection_service",
+        "hierarchy": [
+          "services_and_business",
+          "home_service",
+          "fire_protection_service"
+        ],
+        "alternates": null
+      },
+      "version": 10,
+      "theme": "places",
+      "type": "place",
+      "bbox": {
+        "xmin": -95.369732,
+        "ymin": 35.749149,
+        "xmax": -95.369732,
+        "ymax": 35.749149
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.369732,
+          35.749149
+        ]
+      },
+      "mapped_GEOID": "40101000400"
+    },
+    "osm": {
+      "type": "Feature",
+      "properties": {
+        "region": "eastern-ok",
+        "GEOID": "40101001502",
+        "ur_class": "Rural",
+        "pct_urban": 0.0,
+        "facility_type": "fire",
+        "osm_id": "way/524779554",
+        "osm_name": "Porum Volunteer Fire Department",
+        "osm_version": 1,
+        "osm_timestamp": "2017-09-14T22:34:56Z",
+        "osm_duplicates": "",
+        "lon": -95.26481912527079,
+        "lat": 35.35918475,
+        "geometry_type": "Polygon",
+        "gnis_tag": false,
+        "osm_source": "",
+        "osm_tags": "{\"amenity\": \"fire_station\", \"building\": \"yes\", \"name\": \"Porum Volunteer Fire Department\"}",
+        "compatible_distance_m": null,
+        "compatible_50m": false,
+        "compatible_100m": false,
+        "compatible_200m": false,
+        "primary_100m": false,
+        "overture_id": "b5fd54b5-1399-449b-af23-2240905ea255",
+        "overture_name": "Porum Police Department",
+        "overture_primary": "police_department",
+        "overture_match_distance_m": 306.87931076151943,
+        "name_similarity": 0.7,
+        "overture_sources": "meta",
+        "named_compatible_350m": false,
+        "identity_candidate": false,
+        "status": "similar name: review category/location"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.2647498,
+              35.3593434
+            ],
+            [
+              -95.2647391,
+              35.3590295
+            ],
+            [
+              -95.2648884,
+              35.3590261
+            ],
+            [
+              -95.2648992,
+              35.35934
+            ],
+            [
+              -95.2647498,
+              35.3593434
+            ]
+          ]
+        ]
+      }
+    },
+    "point_distance_m": 44443.42011183782
+  },
+  "webbers_falls": {
+    "overture": {
+      "id": "28e96c4a-fec6-4715-baef-e40708362cfd",
+      "categories": {
+        "primary": "fire_protection_service",
+        "alternate": [
+          "fire_department",
+          "ambulance_and_ems_services"
+        ]
+      },
+      "confidence": 0.9736079573631287,
+      "websites": null,
+      "emails": null,
+      "socials": [
+        "https://www.facebook.com/1466988323607075"
+      ],
+      "phones": null,
+      "brand": {
+        "wikidata": null,
+        "names": {
+          "primary": null,
+          "common": null,
+          "rules": null
+        }
+      },
+      "addresses": [
+        {
+          "freeform": "220 N Hwy 100",
+          "locality": "Webbers Falls",
+          "postcode": "74470",
+          "region": "OK",
+          "country": "US"
+        }
+      ],
+      "names": {
+        "primary": "Webbers Falls Fire Department",
+        "common": null,
+        "rules": null
+      },
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1466988323607075",
+          "update_time": "2026-08-10T00:00:00.000Z",
+          "confidence": 0.9736079573631287,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-10"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-08-14T19:46:07Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-08-14"
+        }
+      ],
+      "operating_status": null,
+      "basic_category": "home_service",
+      "taxonomy": {
+        "primary": "fire_protection_service",
+        "hierarchy": [
+          "services_and_business",
+          "home_service",
+          "fire_protection_service"
+        ],
+        "alternates": null
+      },
+      "version": 8,
+      "theme": "places",
+      "type": "place",
+      "bbox": {
+        "xmin": -95.139961,
+        "ymin": 35.51046,
+        "xmax": -95.139961,
+        "ymax": 35.51046
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.139961,
+          35.51046
+        ]
+      },
+      "mapped_GEOID": "40101001501"
+    },
+    "osm": {
+      "type": "Feature",
+      "properties": {
+        "region": "eastern-ok",
+        "GEOID": "40101001501",
+        "ur_class": "Rural",
+        "pct_urban": 0.0,
+        "facility_type": "fire",
+        "osm_id": "way/210884215",
+        "osm_name": "Webbers Falls Volunteer Fire Department",
+        "osm_version": 1,
+        "osm_timestamp": "2013-03-18T22:58:36Z",
+        "osm_duplicates": "",
+        "lon": -95.14957766013922,
+        "lat": 35.50552275,
+        "geometry_type": "Polygon",
+        "gnis_tag": true,
+        "osm_source": "",
+        "osm_tags": "{\"amenity\": \"fire_station\", \"ele\": \"148\", \"gnis:feature_id\": \"2656872\", \"name\": \"Webbers Falls Volunteer Fire Department\"}",
+        "compatible_distance_m": null,
+        "compatible_50m": false,
+        "compatible_100m": false,
+        "compatible_200m": false,
+        "primary_100m": false,
+        "overture_id": "",
+        "overture_name": "",
+        "overture_primary": "",
+        "overture_match_distance_m": null,
+        "name_similarity": null,
+        "overture_sources": "",
+        "named_compatible_350m": false,
+        "identity_candidate": false,
+        "status": "no compatible place within 100m"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.1499538,
+              35.5038215
+            ],
+            [
+              -95.1497419,
+              35.5045224
+            ],
+            [
+              -95.1495798,
+              35.5049145
+            ],
+            [
+              -95.1494383,
+              35.5051591
+            ],
+            [
+              -95.1493564,
+              35.5051859
+            ],
+            [
+              -95.149309,
+              35.5053637
+            ],
+            [
+              -95.1491071,
+              35.5056924
+            ],
+            [
+              -95.1487389,
+              35.5062058
+            ],
+            [
+              -95.1484707,
+              35.5065245
+            ],
+            [
+              -95.1482856,
+              35.5066839
+            ],
+            [
+              -95.1483245,
+              35.5067967
+            ],
+            [
+              -95.1485968,
+              35.5067974
+            ],
+            [
+              -95.1485941,
+              35.506745
+            ],
+            [
+              -95.1488596,
+              35.5067516
+            ],
+            [
+              -95.148873,
+              35.5069503
+            ],
+            [
+              -95.1499565,
+              35.5069437
+            ],
+            [
+              -95.1499431,
+              35.5056818
+            ],
+            [
+              -95.1499538,
+              35.5038215
+            ]
+          ]
+        ]
+      }
+    },
+    "point_distance_m": 1030.3108391076391
+  }
+}

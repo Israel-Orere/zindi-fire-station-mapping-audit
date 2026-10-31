@@ -1,0 +1,13 @@
+region,exposure_group,sites,tracts,matched,percent,rural_sites,urban_sites,unknown_rurality_sites
+eastern-ok,Lowest exposure quarter,48,45,39,81.25,0,48,0
+eastern-ok,Middle half,129,119,87,67.44186046511628,41,88,0
+eastern-ok,Highest exposure quarter,77,61,40,51.94805194805194,70,7,0
+eastern-wa,Lowest exposure quarter,26,24,18,69.23076923076923,0,26,0
+eastern-wa,Middle half,179,118,84,46.927374301675975,84,94,1
+eastern-wa,Highest exposure quarter,116,67,48,41.37931034482759,102,14,0
+maricopa-az,Lowest exposure quarter,52,48,46,88.46153846153845,0,52,0
+maricopa-az,Middle half,190,175,157,82.63157894736842,0,190,0
+maricopa-az,Highest exposure quarter,199,154,130,65.32663316582915,105,94,0
+northern-ca,Lowest exposure quarter,32,30,29,90.625,0,32,0
+northern-ca,Middle half,126,101,90,71.42857142857143,34,92,0
+northern-ca,Highest exposure quarter,198,92,76,38.38383838383838,180,18,0

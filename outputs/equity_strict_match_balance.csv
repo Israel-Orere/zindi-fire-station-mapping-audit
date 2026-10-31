@@ -1,0 +1,11 @@
+variant,feature,after_smd
+"SVI 0.1, wildfire 0.1",log_pop,-0.046652042149812695
+"SVI 0.1, wildfire 0.1",svi_overall,0.014447648956148243
+"SVI 0.1, wildfire 0.1",wildfire_rank,0.15779139137778103
+"SVI 0.1, wildfire 0.1",mean_record_age,0.09789813252787867
+"SVI 0.1, wildfire 0.1",polygon_share,-0.08751516061899425
+"SVI 0.1, wildfire 0.05",log_pop,-0.046535414998105144
+"SVI 0.1, wildfire 0.05",svi_overall,0.0011639516822223562
+"SVI 0.1, wildfire 0.05",wildfire_rank,0.0098557675801924
+"SVI 0.1, wildfire 0.05",mean_record_age,0.06050371145134615
+"SVI 0.1, wildfire 0.05",polygon_share,0.058679520138542475
