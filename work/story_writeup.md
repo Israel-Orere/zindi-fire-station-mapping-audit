@@ -40,7 +40,7 @@ Overture lists “Porum Volunteer Fire Department” in Muskogee, **44.4 km from
 
 A county-published tanker contract from October 2024 gives the department's address as **205 North 2nd Street, Porum, Oklahoma**, on [page 2](https://muskogee.okcounties.org/file/item_8_-_contract_porum_vfd_fire_master_fire_equipment_2427.pdf). Overture gives its listing a Muskogee address instead. The department's name has been assigned to another town.
 
-The rural census tract around the site had **2,189 residents** in 2020. It falls in the **most socially vulnerable quarter of US tracts**, and its landscape wildfire exposure is higher than about **88% of tracts in the supplied region**.
+Porum's station sits in a rural census tract ranked among the [**most socially vulnerable 25% of US tracts in the 2022 index**](https://github.com/Israel-Orere/zindi-fire-station-mapping-audit/blob/main/outputs/equity_followup_report.md#who-is-affected-in-the-verified-examples). Its landscape wildfire exposure is higher than about **88% of tracts in the supplied region**. The concern is an existing local resource becoming harder to find in an already vulnerable area.
 
 ![Porum's mapped building and OSM station identity, beside an illustrative urban example in Okmulgee](same_site_comparison.png)
 
