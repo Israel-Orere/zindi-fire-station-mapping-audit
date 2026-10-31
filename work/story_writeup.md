@@ -4,9 +4,11 @@
 
 **Reproduce this analysis:** [Download the code and evidence package](zindi_bias_discovery_evidence.zip) · [Run instructions](reproduce_analysis.md)
 
-**Fire-station sites in rural and more wildfire-exposed areas had fewer nearby fire-department listings. Porum and Westport show a concrete problem: the building is mapped locally while the department's listing points elsewhere.**
+**Three discoveries drive this story:**
 
-We follow the rural–urban gap, the wildfire pattern, and the local evidence to show why checking locations matters alongside counting facilities.
+1. **Rural fire-station sites had fewer nearby fire-department listings.** The pattern appeared in every region we checked.
+2. **More wildfire-exposed places had fewer nearby fire-department listings.**
+3. **A station's building can be mapped locally while its department is listed elsewhere.** In Porum, the listing is 44.4 km away; in Westport, it is 616 metres from the station site.
 
 ## Rural fire-station sites are less often listed nearby
 
