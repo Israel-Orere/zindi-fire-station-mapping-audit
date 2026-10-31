@@ -44,17 +44,15 @@ The rural census tract around the site had **2,189 residents** in 2020. It falls
 
 ![Porum's mapped building and OSM station identity, beside an illustrative urban example in Okmulgee](same_site_comparison.png)
 
-## Westport: the right name, 616 metres from the station
+## Westport: a location error that a simple count can miss
 
-**Overture puts Westport's fire-department listing 616 metres from the supported station site, while retaining the building at the local site.**
+**Overture places Westport's fire-department listing 616 metres from the station site supported by local address records.** It still maps the building at that site.
 
-On California's Mendocino coast, Westport's department describes **14 volunteers covering 190 square miles** on its [public website](https://www.westportvfd.org/about). That includes remote and rugged coastal terrain.
-
-The department [publishes its address](https://www.westportvfd.org/contact-wvfd) as **37551 Shoreline Highway**. A [county address point](https://www.arcgis.com/home/item.html?id=8bb2807c2bbe4df58d18910ab3ec1acd) supports the OpenStreetMap location.
+The department's [published address](https://www.westportvfd.org/contact-wvfd) and a [county address point](https://www.arcgis.com/home/item.html?id=8bb2807c2bbe4df58d18910ab3ec1acd) support the station location mapped in OpenStreetMap.
 
 ![Westport: equal-scale views of the OSM fire-station site and the displaced same-name Overture record](case_westport.png)
 
-Both locations are inside the same census tract, which had **4,267 residents** in 2020. It is in the most socially vulnerable quarter of US tracts and near the top **5% for landscape wildfire exposure within the supplied region**. **A count of fire-department listings in that tract can stay the same even when a listing is in the wrong place.**
+The listing and station site fall in the same census tract. Moving the listing to the station would not change the tract's total. **Counting departments alone can miss misplaced resources.**
 
 ## What these results could mean for real-life disaster response
 
