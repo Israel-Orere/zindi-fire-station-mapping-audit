@@ -1,0 +1,168 @@
+{
+  "submission_id": "E5ExTc9D",
+  "public_rmse": 0.086138688,
+  "private_rmse": 0.085824108,
+  "method": "Independent implementation of the original fixed V3 rule; no training or inherited predictions.",
+  "rows": 9794,
+  "unique_geoids": 9794,
+  "output_sha256": "be3673df36eec401677607f2a21592840302e4261757f0bf827b172aa4264daf",
+  "tiers": {
+    "urban_or_unknown": 7941,
+    "other_rural": 1095,
+    "rural_population_1500_plus_no_fire": 758
+  },
+  "unknown_urban_share": 27,
+  "zero_population": 27,
+  "zero_land": 2,
+  "region_audits": [
+    {
+      "region": "eastern-ok",
+      "scored_tracts": 1192,
+      "all_pois_scanned": 207369,
+      "primary_fire_records": 576,
+      "fire_outside_scored_tracts": 0,
+      "fire_intersecting_multiple_tracts": 0,
+      "tiers": {
+        "urban_or_unknown": 781,
+        "other_rural": 267,
+        "rural_population_1500_plus_no_fire": 144
+      }
+    },
+    {
+      "region": "maricopa-az",
+      "scored_tracts": 1593,
+      "all_pois_scanned": 300046,
+      "primary_fire_records": 462,
+      "fire_outside_scored_tracts": 0,
+      "fire_intersecting_multiple_tracts": 0,
+      "tiers": {
+        "urban_or_unknown": 1430,
+        "other_rural": 96,
+        "rural_population_1500_plus_no_fire": 67
+      }
+    },
+    {
+      "region": "northern-ca",
+      "scored_tracts": 591,
+      "all_pois_scanned": 116897,
+      "primary_fire_records": 289,
+      "fire_outside_scored_tracts": 0,
+      "fire_intersecting_multiple_tracts": 0,
+      "tiers": {
+        "urban_or_unknown": 444,
+        "other_rural": 93,
+        "rural_population_1500_plus_no_fire": 54
+      }
+    },
+    {
+      "region": "south-central-tx",
+      "scored_tracts": 6003,
+      "all_pois_scanned": 1300334,
+      "primary_fire_records": 2135,
+      "fire_outside_scored_tracts": 0,
+      "fire_intersecting_multiple_tracts": 0,
+      "tiers": {
+        "urban_or_unknown": 5012,
+        "other_rural": 570,
+        "rural_population_1500_plus_no_fire": 421
+      }
+    },
+    {
+      "region": "eastern-wa",
+      "scored_tracts": 415,
+      "all_pois_scanned": 76491,
+      "primary_fire_records": 179,
+      "fire_outside_scored_tracts": 0,
+      "fire_intersecting_multiple_tracts": 0,
+      "tiers": {
+        "urban_or_unknown": 274,
+        "rural_population_1500_plus_no_fire": 72,
+        "other_rural": 69
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "name": "eastern-ok-sample-submission.csv",
+      "bytes": 33436,
+      "sha256": "56cb40fba4008d646bc63c62c91e211871459224b3de8b3a886ff813803fd0d4"
+    },
+    {
+      "name": "eastern-ok-census-tracts.parquet",
+      "bytes": 5324978,
+      "sha256": "cffccf214028d124747de44fce3edff9acce0a43bf0efcf62727cb7cd7d57623"
+    },
+    {
+      "name": "eastern-ok-overture-pois.parquet",
+      "bytes": 28848614,
+      "sha256": "1ab300aec153e52c781defaa1986ea3144950f557ed1894b14237a8d8e016290"
+    },
+    {
+      "name": "maricopa-az-sample-submission.csv",
+      "bytes": 44664,
+      "sha256": "1640b801d56ab308e68c65583b88cfb9e1555b05a6d0b922eaba22ac09960a31"
+    },
+    {
+      "name": "maricopa-az-census-tracts.parquet",
+      "bytes": 5242171,
+      "sha256": "be3be05b7fcf77773d43a4d9b8ef18af44d1bdc840fd215b31329ad2b0bcfedd"
+    },
+    {
+      "name": "maricopa-az-overture-pois.parquet",
+      "bytes": 40987154,
+      "sha256": "9729146f70026f98d68cc47008cf679dd450e3378680c70090351572f8c3315f"
+    },
+    {
+      "name": "northern-ca-sample-submission.csv",
+      "bytes": 16608,
+      "sha256": "f38017b5284667b80b451685fd146388c108e1b30308301289c7a96ecfe60902"
+    },
+    {
+      "name": "northern-ca-census-tracts.parquet",
+      "bytes": 4762054,
+      "sha256": "910e21ff039000dff13779051cd5d1ef62c0ea183ebdd7ff4170942fe5fb877d"
+    },
+    {
+      "name": "northern-ca-overture-pois.parquet",
+      "bytes": 16168720,
+      "sha256": "6318deb41156116c002f2bf0222e37b0ba758c1707fbf573da13afd32a482d6a"
+    },
+    {
+      "name": "south-central-tx-sample-submission.csv",
+      "bytes": 168144,
+      "sha256": "afa59c0eb30c40be25ce82098f144447591b79cb9692e669b2f2fe7b7b1ee58e"
+    },
+    {
+      "name": "south-central-tx-census-tracts.parquet",
+      "bytes": 20580821,
+      "sha256": "7d64db287ed13d979197338e5d3702ba9f7ec4d1c563aff955bf6fe6bda6fc82"
+    },
+    {
+      "name": "south-central-tx-overture-pois.parquet",
+      "bytes": 179937096,
+      "sha256": "08728fee580c90179188b1cdf89818e080c64acd1a16958f5fa00d17aac3c6a9"
+    },
+    {
+      "name": "eastern-wa-sample-submission.csv",
+      "bytes": 11680,
+      "sha256": "0e0155d5a5e8ef39dc857c8268669b5fb498d7ac40f0ded782482c67ae5efefc"
+    },
+    {
+      "name": "eastern-wa-census-tracts.parquet",
+      "bytes": 3872070,
+      "sha256": "428ae8c2bcc8537493deea86c518bb91a5407c182916577ac7089b52dc752c16"
+    },
+    {
+      "name": "eastern-wa-overture-pois.parquet",
+      "bytes": 10761396,
+      "sha256": "3babc61314e84203ce786a03258bd23b8635ac1a2c7a3db0d39914a8a2ac5a74"
+    }
+  ],
+  "verification": {
+    "reference_sha256": "be3673df36eec401677607f2a21592840302e4261757f0bf827b172aa4264daf",
+    "exact_order": true,
+    "numeric_match": true,
+    "max_abs_difference": 0.0,
+    "byte_identical": true
+  }
+}
